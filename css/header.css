@@ -12,13 +12,22 @@
 
 .header-container nav {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 2.5rem;
 }
 
-
+.header-bg li a{
+  display: block;
+  padding: 1rem 0;
+  color: var(--cor-constraste-claro);
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
