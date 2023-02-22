@@ -30,6 +30,22 @@
   color: var(--cor-constraste-claro);
   font-size: 1.125rem;
   line-height: 2rem;
+  position: relative;
+}
+
+.header-bg li a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--cor-constraste-claro);
+  position: absolute;
+  margin-top: .25rem;
+}
+
+.header-bg li a:hover::after{
+  transition: 0.3s;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
@@ -46,6 +62,11 @@
   .header-menu li a:hover {
     background-color: #2e2e2e;
   }
+
+  .header-bg li a:hover::after{
+    display: none;
+  }
+
 }
 
 @media (max-width: 600px) {
