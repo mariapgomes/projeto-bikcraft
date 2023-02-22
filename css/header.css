@@ -31,3 +31,17 @@
   font-size: 1.125rem;
   line-height: 2rem;
 }
+
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 1.25rem;
+  }
+
+  .header-menu li a {
+    background-color: #111;
+    padding: .75rem 1rem;
+    border-radius: 5px;
+  }
+}
+
+
