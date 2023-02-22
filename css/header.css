@@ -44,4 +44,14 @@
   }
 }
 
+@media (max-width: 600px) {
+  .header-menu {
+    gap: .75rem;
+  }
+
+  .header-menu li a {
+    padding: .5rem .75rem;
+    font-size: .875rem;
+  }
+}
 
