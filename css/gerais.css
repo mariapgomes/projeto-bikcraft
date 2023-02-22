@@ -1,3 +1,9 @@
+:root {
+  --cor-primária: #fb0;
+  --cor-secundária-escura: #000;
+  --cor-constraste-claro: #fff;
+}
+
 body {
   margin: 0;
 }
