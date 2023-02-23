@@ -1,5 +1,5 @@
 .intro-bg {
-  background-color: var(--cor-secundária-escura);
+  background-color: var(--cor-secundaria-escura);
   color:aliceblue;
   /* O insert cria uma sombra interna */
   box-shadow: inset 0 -120px 0 #fff;
@@ -20,12 +20,12 @@
   padding-bottom: 200px;
 }
 
-.intro-conteudo h1{
+.intro-conteudo h1 {
   font-size: 4rem;
   line-height: 1.125;
 }
 
-.intro-conteudo p{
+.intro-conteudo p {
   font-size: 1.5rem;
   line-height: 1.5;
   color: var(--cor-fonte-texto1);
@@ -34,3 +34,12 @@
   max-width: 470px;
 }
 
+@media (max-width: 1200px) {
+  .intro-conteudo h1{
+    font-size: 3rem;
+  }
+
+  .intro-conteudo p {
+    font-size: 1.125rem;
+  }
+}
