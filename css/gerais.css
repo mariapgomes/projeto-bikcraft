@@ -1,6 +1,7 @@
 :root {
-  --cor-primária: #fb0;
-  --cor-secundária-escura: #000;
+  --cor-primaria: #fb0;
+  --cor-secundaria-escura: #000;
+  --cor-secundaria-escura2: #111;
   --cor-constraste-claro: #fff;
   --cor-fonte-botao: #332200;
   --cor-bg-botao: linear-gradient(#FFBF00, #F2A60C);
@@ -30,7 +31,7 @@ h1 {
 }
 
 span {
-  color: var(--cor-primária);
+  color: var(--cor-primaria);
 }
 
 img {
