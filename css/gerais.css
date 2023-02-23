@@ -2,6 +2,10 @@
   --cor-primária: #fb0;
   --cor-secundária-escura: #000;
   --cor-constraste-claro: #fff;
+  --cor-fonte-botao: #332200;
+  --cor-bg-botao: linear-gradient(#FFBF00, #F2A60C);
+  --cor-bg-botao-hover: linear-gradient(#ffb60d, #e59317);
+  --cor-fonte-texto1: #b2b2b2;
 }
 
 body {
@@ -20,3 +24,12 @@ li {
 a {
   text-decoration: none;
 }
+
+h1 {
+  margin: 0;
+}
+
+span {
+  color: var(--cor-primária);
+}
+
