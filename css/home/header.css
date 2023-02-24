@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: var(--cor-secundaria-escura);
+  background-color: var(--cor-c12);
 }
 
 .header-container {
@@ -27,7 +27,7 @@
 .header-bg li a{
   display: block;
   padding: 1rem 0;
-  color: var(--cor-constraste-claro);
+  color: var(--cor-c0);
   font-size: 1.125rem;
   line-height: 2rem;
   position: relative;
@@ -38,7 +38,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background-color: var(--cor-constraste-claro);
+  background-color: var(--cor-c0);
   position: absolute;
   margin-top: .25rem;
 }
@@ -54,13 +54,13 @@
   }
 
   .header-menu li a {
-    background-color: #111;
+    background-color: var(--cor-c11);
     padding: .75rem 1rem;
     border-radius: 5px;
   }
 
   .header-menu li a:hover {
-    background-color: #2e2e2e;
+    background-color: var(--cor-c10);
   }
 
   .header-bg li a:hover::after{
