@@ -23,10 +23,6 @@ h1 {
 
 /* Define estilos que serão reaproveitados em todo o site */
 
-span {
-  color: var(--cor-primaria);
-}
-
 img {
   display: block;
   max-width: 100%;
