@@ -14,6 +14,7 @@ img {
 /* Botões */
 
 .botao {
+  font: 600 1.125rem/1.33 "Poppins", sans-serif;
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 5px;
