@@ -34,16 +34,6 @@
   max-width: 470px;
 }
 
-@media (max-width: 1200px) {
-  .intro-conteudo h1{
-    font-size: 3rem;
-  }
-
-  .intro-conteudo p {
-    font-size: 1.125rem;
-  }
-}
-
 @media (max-width: 800px) {
   .intro-container {
     grid-template-columns: 1fr;
