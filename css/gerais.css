@@ -1,3 +1,5 @@
+/* Define as variáveis do site */
+
 :root {
   --cor-primaria: #fb0;
   --cor-secundaria-escura: #000;
@@ -8,6 +10,8 @@
   --cor-bg-botao-hover: linear-gradient(#ffb60d, #e59317);
   --cor-fonte-texto1: #b2b2b2;
 }
+
+/* Reseta os estilos pré-definidos */
 
 body {
   margin: 0;
@@ -30,6 +34,8 @@ h1 {
   margin: 0;
 }
 
+/* Define estilos que serão reaproveitados em todo o site */
+
 span {
   color: var(--cor-primaria);
 }
@@ -41,6 +47,8 @@ img {
   object-fit: cover;
   object-position: top right;
 }
+
+/* Botões */
 
 .botao {
   display: inline-block;
@@ -54,4 +62,12 @@ img {
 
 .botao:hover {
   background: var(--cor-bg-botao-hover);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+  }
 }
