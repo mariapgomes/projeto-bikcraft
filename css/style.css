@@ -1,5 +1,6 @@
 @import url(./gerais.css);
 @import url(./utilitarios/cores.css);
+@import url(./utilitarios/componentes.css);
 
 /* home do site */
 @import url(./home/header.css);

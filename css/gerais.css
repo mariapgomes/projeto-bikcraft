@@ -20,37 +20,3 @@ a {
 h1 {
   margin: 0;
 }
-
-/* Define estilos que serão reaproveitados em todo o site */
-
-img {
-  display: block;
-  max-width: 100%;
-  border-radius: 5px;
-  object-fit: cover;
-  object-position: top right;
-}
-
-/* Botões */
-
-.botao {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  background: var(--cor-bg-botao);
-  color: var(--cor-fonte-botao);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-}
-
-.botao:hover {
-  background: var(--cor-bg-botao-hover);
-}
-
-@media (max-width: 600px) {
-  .botao {
-    font-size: 1rem;
-    margin-top: 1rem;
-    padding: .75rem 1rem;
-  }
-}
