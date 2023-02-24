@@ -1,10 +1,98 @@
+/* Cores em variáveis */
+
 :root {
-  --cor-primaria: #fb0;
-  --cor-secundaria-escura: #000;
-  --cor-secundaria-escura2: #111;
-  --cor-constraste-claro: #fff;
-  --cor-fonte-botao: #332200;
+  --cor-c12: #000;
+  --cor-c11: #111;
+  --cor-c10: #2e2e2e;
+  --cor-c9: #404040;
+  --cor-c8: #595959;
+  --cor-c7: #717171;
+  --cor-c6: #9c9c9c;
+  --cor-c5: #b2b2b2;
+  --cor-c4: #ccc;
+  --cor-c3: #dedede;
+  --cor-c2: #ededed;
+  --cor-c1: #f7f7f7;
+  --cor-c0: #fff;
+  --cor-p5: #320;
+  --cor-p4: #640;
+  --cor-p3: #a66f00;
+  --cor-p2: #e4a30b;
+  --cor-p1: #fb0;
   --cor-bg-botao: linear-gradient(#FFBF00, #F2A60C);
   --cor-bg-botao-hover: linear-gradient(#ffb60d, #e59317);
-  --cor-fonte-texto1: #b2b2b2;
+}
+
+/* Cores em classes */
+
+.cor-c12 {
+  color: #000;
+}
+
+.cor-c11 {
+  color: #111;
+}
+
+.cor-c10 {
+  color: #2e2e2e;
+}
+
+.cor-c9 {
+  color: #404040;
+}
+
+.cor-c8 {
+  color: #595959;
+}
+
+.cor-c7 {
+  color: #717171;
+}
+
+.cor-c6 {
+  color: #9c9c9c;
+}
+
+.cor-c5 {
+  color: #b2b2b2;
+}
+
+.cor-c4 {
+  color: #ccc;
+}
+
+.cor-c3 {
+  color: #dedede;
+}
+
+.cor-c2 {
+  color: #ededed;
+}
+
+.cor-c1 {
+  color: #f7f7f7;
+}
+
+.cor-c0 {
+  color: #fff;
+}
+
+.cor-p5 {
+  color: #320;
+}
+
+.cor-p4 {
+  color: #640;
+}
+
+.cor-p3 {
+  color: #a66f00;
+}
+
+.cor-p2 {
+  color: #e4a30b;
+}
+
+.cor-p1 {
+  color: #fb0;
 }
