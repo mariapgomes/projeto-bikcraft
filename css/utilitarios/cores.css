@@ -1,0 +1,10 @@
+:root {
+  --cor-primaria: #fb0;
+  --cor-secundaria-escura: #000;
+  --cor-secundaria-escura2: #111;
+  --cor-constraste-claro: #fff;
+  --cor-fonte-botao: #332200;
+  --cor-bg-botao: linear-gradient(#FFBF00, #F2A60C);
+  --cor-bg-botao-hover: linear-gradient(#ffb60d, #e59317);
+  --cor-fonte-texto1: #b2b2b2;
+}
