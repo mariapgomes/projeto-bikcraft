@@ -1,4 +1,5 @@
 @import url(./gerais.css);
+@import url(./utilitarios/cores.css);
 
 /* home do site */
 @import url(./home/header.css);
