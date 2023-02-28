@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 40px auto;
   margin-bottom: 0;
   padding: 0 70px;
@@ -20,8 +20,8 @@
   margin: 0 auto;
 }
 
-.lista-item {
-  justify-self: center;
+.lista-item a{
+  display: block;
 }
 
 .lista-item h3 {
