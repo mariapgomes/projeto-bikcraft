@@ -1,14 +1,15 @@
 /* Define estilos que serão reaproveitados em todo o site */
 
 
-/* botão */
+/* Imagens */
 
 img[src$=".jpg"] {
   display: block;
   max-width: 100%;
+  height: 100%;
   border-radius: 5px;
   object-fit: cover;
-  object-position: top right;
+  /* object-position: top right; */
 }
 
 /* Botões */

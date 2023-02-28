@@ -9,7 +9,13 @@
   max-width: 1400px;
   margin: 40px auto;
   margin-bottom: 0;
-  padding: 0 70px;
+  padding: 0 20px;
+  overflow-x: auto;
+}
+
+.lista-produtos li {
+  min-width: 200px;
+  margin-bottom: 20px;
 }
 
 .titulo-produtos {
@@ -40,4 +46,14 @@
 
 .lista-item p {
   margin-left: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .lista-home {
+    margin-bottom: 60px;
+  }
+
+  .lista-produtos {
+    gap: 20px;
+  }
 }
