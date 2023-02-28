@@ -1,15 +1,23 @@
+.lista-home {
+  margin: 60px auto;
+  margin-bottom: 120px;
+}
+
 .lista-produtos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   max-width: 1600px;
-  margin: 120px auto;
+  margin: 40px auto;
+  margin-bottom: 0;
   padding: 0 70px;
 }
 
 .titulo-produtos {
-  grid-column: span 3;
-  margin-left: 210px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  margin: 0 auto;
 }
 
 .lista-item {
