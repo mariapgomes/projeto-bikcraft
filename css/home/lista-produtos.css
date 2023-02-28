@@ -1,0 +1,17 @@
+.lista-produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1600px;
+  margin: 120px auto;
+  padding: 0 70px;
+}
+
+.titulo-produtos {
+  grid-column: span 3;
+  margin-left: 220px;
+}
+
+.lista-item {
+  justify-self: center;
+}
