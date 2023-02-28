@@ -1,5 +1,13 @@
 /* Define estilos que serão reaproveitados em todo o site */
 
+/* Dimenções do container */
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
 
 /* Imagens */
 
