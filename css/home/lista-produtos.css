@@ -9,9 +9,28 @@
 
 .titulo-produtos {
   grid-column: span 3;
-  margin-left: 220px;
+  margin-left: 210px;
 }
 
 .lista-item {
   justify-self: center;
+}
+
+.lista-item h3 {
+  margin: 1rem 0 .5rem 1.25rem;
+  position: relative;
+}
+
+.lista-item h3::before {
+  content: '';
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  left: -20px;
+  top: 15px;
+}
+
+.lista-item p {
+  margin-left: 1.25rem;
 }
