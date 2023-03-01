@@ -15,6 +15,7 @@ li {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 h1, h2, h3, p {

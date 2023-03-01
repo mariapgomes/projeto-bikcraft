@@ -18,10 +18,6 @@
   margin-bottom: 20px;
 }
 
-.lista-item a{
-  display: block;
-}
-
 .lista-item h3 {
   margin: 1rem 0 .5rem 0;
   display: flex;
