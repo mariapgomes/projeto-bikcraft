@@ -1,11 +1,16 @@
 .bg-diferencial {
   background-color: var(--cor-c11);
+  box-shadow: inset 0 -80px 0 var(--cor-c0);
 }
 
 .container-diferencial {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+}
+
+.conteudo-diferencial {
+  padding: 160px 0;
 }
 
 .conteudo-diferencial h3{
@@ -22,7 +27,7 @@
 }
 
 .conteudo-diferencial a{
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   color: var(--cor-p1);
   text-transform: uppercase;
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
@@ -39,4 +44,22 @@
 .lista-diferencial {
   display: flex;
   gap: 40px;
+}
+
+.before-diferencial1::before{
+  content: '';
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icones/eletrica\ 3.svg);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.before-diferencial2::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icones/rastreador\ 2.svg);
+  display: block;
+  margin-bottom: 8px;
 }
