@@ -5,4 +5,27 @@
 .container-diferencial {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.conteudo-diferencial h3{
+  margin-bottom: 1rem;
+}
+
+.conteudo-diferencial h2{
+  margin-bottom: 2rem;
+}
+
+.conteudo-diferencial p{
+  margin-bottom: 1.25rem;
+  max-width: 538px;
+}
+
+.conteudo-diferencial a{
+  margin-bottom: 5rem;
+}
+
+.lista-diferencial {
+  display: flex;
+  gap: 40px;
 }
