@@ -23,6 +23,17 @@
 
 .conteudo-diferencial a{
   margin-bottom: 5rem;
+  color: var(--cor-p1);
+  text-transform: uppercase;
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.conteudo-diferencial a::after{
+  content: '';
+  width: 269px;
+  height: 4px;
+  background-color: var(--cor-p1);
+  display: block;
 }
 
 .lista-diferencial {
