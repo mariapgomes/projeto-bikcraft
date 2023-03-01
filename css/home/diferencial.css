@@ -1,0 +1,8 @@
+.bg-diferencial {
+  background-color: var(--cor-c11);
+}
+
+.container-diferencial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
