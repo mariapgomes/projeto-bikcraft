@@ -44,3 +44,25 @@ img[src$=".jpg"] {
     padding: .75rem 1rem;
   }
 }
+
+/* Link */
+
+.link{
+  display: inline-block;
+  margin-bottom: 5rem;
+  color: var(--cor-p1);
+  text-transform: uppercase;
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.link::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--cor-c0);
+}
