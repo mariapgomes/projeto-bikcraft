@@ -73,3 +73,25 @@
 .container-diferencial div img{
   object-position: left;
 }
+
+@media (max-width: 800px) {
+  .bg-diferencial {
+    box-shadow: initial
+  }
+
+  .container-diferencial {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-diferencial {
+    padding: 60px 0;
+  }
+
+  .container-diferencial div img{
+    display: none;
+  }
+
+  .conteudo-diferencial a{
+    margin-bottom: 3.75rem;
+  }
+}
