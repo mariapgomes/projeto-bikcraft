@@ -53,6 +53,7 @@ img[src$=".jpg"] {
   color: var(--cor-p1);
   text-transform: uppercase;
   font: 400 1.5rem/1.5 "Poppins", sans-serif;
+  width: max-content;
 }
 
 .link::after{
@@ -65,4 +66,14 @@ img[src$=".jpg"] {
 
 .link:hover {
   color: var(--cor-c0);
+}
+
+@media (max-width: 800px) {
+  .link {
+    font-size: 1.25rem;
+  }
+
+  .link::after{
+    height: 3px;
+  }
 }
