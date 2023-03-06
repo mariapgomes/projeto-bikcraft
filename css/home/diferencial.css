@@ -63,3 +63,7 @@
   display: block;
   margin-bottom: 8px;
 }
+
+.container-diferencial div img{
+  object-position: left;
+}
