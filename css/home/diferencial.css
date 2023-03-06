@@ -28,7 +28,7 @@
 }
 
 .conteudo-diferencial a{
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   color: var(--cor-p1);
   text-transform: uppercase;
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
@@ -45,6 +45,11 @@
 .lista-diferencial {
   display: flex;
   gap: 40px;
+}
+
+.diferencial h4 {
+  margin: 0 0 .5rem 0;
+  width: max-content;
 }
 
 .before-diferencial1::before{
