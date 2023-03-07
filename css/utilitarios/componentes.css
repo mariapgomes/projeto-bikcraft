@@ -46,6 +46,21 @@ img[src$=".jpg"] {
   }
 }
 
+/* botões dos planos de seguros */
+
+.botao-ouro, .botao-prata {
+  margin: 32px 32px 32px 60px;
+}
+
+.botao-prata {
+  background: var(--cor-c10);
+  color: var(--cor-c4);
+}
+
+.botao-prata:hover {
+  background: var(--cor-c9);
+}
+
 /* Link */
 
 .link{
