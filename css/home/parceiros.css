@@ -1,7 +1,6 @@
 .parceiros-bg {
   padding-top: 60px;
   padding-bottom: 120px;
-  
   margin: 0 auto;
 }
 
@@ -17,11 +16,9 @@
 .lista-parceiros li {
   padding: 2rem;
   display: flex;
-  max-width: 100%;
+  /* Desenha o grid que separa os parceiros */
   border-left: 2px solid var(--cor-c2);
 }
-
-/* Desenha o grid que separa os parceiros */
 
 .lista-parceiros li:first-child, .lista-parceiros li:nth-child(5){
   border-left: none;
@@ -35,5 +32,24 @@
 
 .lista-parceiros li img{
   margin: auto;
+  max-width: 100%;
 }
 
+@media (max-width: 800px) {
+  .parceiros-bg {
+    padding-bottom: 60px;
+  }
+
+  .lista-parceiros {
+    padding-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lista-parceiros li:nth-child(odd){
+    border-left: none;
+  }
+  
+  .lista-parceiros li:nth-child(n + 3){
+    border-top: 2px solid var(--cor-c2);
+  }
+}
