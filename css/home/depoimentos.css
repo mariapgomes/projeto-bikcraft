@@ -70,3 +70,24 @@
     left: -2.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .depoimento-texto p {
+    font-size: 2rem;
+    max-width: 28ch;
+  }
+
+  .depoimento-conteudo p::before, .depoimento-conteudo p::after  {
+    font-size: 4rem;
+  }
+
+  .depoimento-conteudo p::before {
+    left: -1.5625rem;
+    top: -20px;
+  }
+
+  .depoimento-conteudo p::after {
+    bottom: -2.5rem;
+    right: -1.25rem;
+  }
+}
