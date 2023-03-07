@@ -21,8 +21,26 @@
   font: 900 2.25rem/3rem "Merriweather", serif;
   font-style: italic;
   margin-bottom: 2rem;
+  position: relative;
 }
 
+/* Cria as aspas decorativas */
+
+.depoimento-conteudo p::before, .depoimento-conteudo p::after  {
+  content: '“';
+  font-size: 6rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
+.depoimento-conteudo p::before {
+  left: -50px;
+}
+
+.depoimento-conteudo p::after {
+  content: '”';
+  bottom: -25px;
+}
 
 .depoimento-texto cite{
   font-weight: 600;
