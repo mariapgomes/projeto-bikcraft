@@ -18,7 +18,7 @@
 
 .depoimento-texto p{
   max-width: 38ch;
-  font: 900 2.25rem/3rem "Merriweather", serif;
+  font: 900 2.25rem/1.125 "Merriweather", serif;
   font-style: italic;
   margin-bottom: 2rem;
   position: relative;
@@ -28,20 +28,45 @@
 
 .depoimento-conteudo p::before, .depoimento-conteudo p::after  {
   content: '“';
-  font-size: 6rem;
+  font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
 }
 
 .depoimento-conteudo p::before {
-  left: -50px;
+  left: -3.125rem;
+  top: -1.5625rem;
 }
 
 .depoimento-conteudo p::after {
   content: '”';
-  bottom: -25px;
+  bottom: -3.125rem;
 }
 
 .depoimento-texto cite{
   font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .depoimento-conteudo {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimento-conteudo img{
+    max-height: 200px;
+  }
+
+  .depoimento-texto {
+    padding: 2.5rem 1.25rem;
+    justify-self: center;
+  }
+
+  .depoimento-texto p{
+    max-width: 32ch;
+  }
+
+  .depoimento-conteudo p::before {
+    left: -2.5rem;
+  }
 }
