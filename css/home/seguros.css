@@ -8,10 +8,16 @@
   grid-template-columns: 1fr 1fr;
   gap: 32px;
   padding-top: 60px;
+  align-items: center;
 }
 
 .seguro-plano {
   background-color: var(--cor-c12);
+  border-radius: 5px;
+}
+
+.seguro-plano:first-child {
+  height: 398px;
 }
 
 .titulo-plano, .seguro-vantagens {
