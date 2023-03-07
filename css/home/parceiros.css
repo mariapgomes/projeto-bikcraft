@@ -41,8 +41,13 @@
   }
 
   .lista-parceiros {
-    padding-top: 20px;
+    margin-top: 0;
+    padding: 1.25rem;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lista-parceiros li {
+    padding: 1.25rem;
   }
 
   .lista-parceiros li:nth-child(odd){
