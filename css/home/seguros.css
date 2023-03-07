@@ -18,6 +18,14 @@
   padding: 32px 32px 0px 64px;
 }
 
+/* Deixa os icones fora do grid */
+
+.seguro-vantagens {
+  padding-left: 43px;
+}
+
+/* fim */
+
 .titulo-plano {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,6 +39,8 @@
   grid-column: 2;
 }
 
+/* Define o distanciamento entre os itens da lista */
+
 .seguro-vantagens li{
   padding-bottom: 20px;
 }
@@ -38,6 +48,26 @@
 .seguro-vantagens li:last-child {
   padding-bottom: 0;
 }
+
+/* fim */
+
+/* Insere os icones */
+
+.seguro-vantagens li{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.seguro-vantagens li:before {
+  content: '';
+  width: 13px;
+  height: 9px;
+  background-image: url(/img/icones/check.svg);
+  display: inline-block;
+}
+
+/* fim */
 
 .botao {
   margin: 32px 32px 32px 60px;
