@@ -1,0 +1,29 @@
+.depoimento-bg {
+  background-color: var(--cor-p1);
+}
+
+.depoimento-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-conteudo img{
+  border-radius: 0;
+}
+
+.depoimento-texto {
+  padding: 2.5rem 2.5rem 5rem 5rem;
+  align-self: end;
+}
+
+.depoimento-texto p{
+  max-width: 38ch;
+  font: 900 2.25rem/3rem "Merriweather", serif;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+
+.depoimento-texto cite{
+  font-weight: 600;
+}
