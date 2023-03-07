@@ -24,6 +24,7 @@ img[src$=".jpg"] {
 
 .botao {
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  text-transform: uppercase;
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 5px;
