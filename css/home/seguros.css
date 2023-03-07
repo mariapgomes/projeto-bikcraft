@@ -2,3 +2,43 @@
   background-color: var(--cor-c11);
   padding: 60px 0 120px 0;
 }
+
+.seguro-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding-top: 60px;
+}
+
+.seguro-plano {
+  background-color: var(--cor-c12);
+}
+
+.titulo-plano, .seguro-vantagens {
+  padding: 32px 32px 0px 64px;
+}
+
+.titulo-plano {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo-plano p{
+  justify-self: end;
+}
+
+.titulo-plano p:last-child {
+  grid-column: 2;
+}
+
+.seguro-vantagens li{
+  padding-bottom: 20px;
+}
+
+.seguro-vantagens li:last-child {
+  padding-bottom: 0;
+}
+
+.botao {
+  margin: 32px 32px 32px 60px;
+}
