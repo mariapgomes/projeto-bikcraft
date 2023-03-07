@@ -18,10 +18,22 @@
   padding: 2rem;
   display: flex;
   max-width: 100%;
-  border: 1px solid crimson;
-  
+  border-left: 2px solid var(--cor-c2);
 }
+
+/* Desenha o grid que separa os parceiros */
+
+.lista-parceiros li:first-child, .lista-parceiros li:nth-child(5){
+  border-left: none;
+}
+
+.lista-parceiros li:nth-child(n + 5){
+  border-top: 2px solid var(--cor-c2);
+}
+
+/* fim */
 
 .lista-parceiros li img{
   margin: auto;
 }
+
