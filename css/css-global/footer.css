@@ -1,3 +1,26 @@
 .footer-bg {
   background-color: var(--cor-c12);
 }
+
+.footer-conteudo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px 0;
+  padding-top: 3.75rem;
+  padding-bottom: 2rem;
+}
+
+.footer-contatos p, .footer-informacoes ul {
+  margin-top: 32px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.footer-informacoes ul li + li {
+  margin-top: .75rem;
+}

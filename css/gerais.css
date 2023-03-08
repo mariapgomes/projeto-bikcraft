@@ -19,6 +19,6 @@ a {
   display: block;
 }
 
-h1, h2, h3, p, blockquote {
+h1, h2, h3, h4, p, blockquote {
   margin: 0;
 }
