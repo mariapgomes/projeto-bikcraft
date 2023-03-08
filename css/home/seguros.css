@@ -17,7 +17,7 @@
 }
 
 .seguro-plano:first-child {
-  height: 398px;
+  height: max-content;
 }
 
 .titulo-plano, .seguro-vantagens {
@@ -47,12 +47,8 @@
 
 /* Define o distanciamento entre os itens da lista */
 
-.seguro-vantagens li{
-  padding-bottom: 20px;
-}
-
-.seguro-vantagens li:last-child {
-  padding-bottom: 0;
+.seguro-vantagens li + li{
+  padding-top: 20px;
 }
 
 /* fim */
@@ -74,3 +70,9 @@
 }
 
 /* fim */
+
+@media (max-width: 800px) {
+  .seguro-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
