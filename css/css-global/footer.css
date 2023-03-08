@@ -11,13 +11,30 @@
 }
 
 .footer-contatos p, .footer-informacoes ul {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
+
+/* Insere as linhas separadoras */
+
+.footer-contatos p + p {
+  margin-top: 16px;
+}
+
+.footer-contatos p::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: var(--cor-c11);
+  margin-top: 16px;
+}
+
+/* fim */
 
 .footer-redes {
   display: flex;
-  gap: 32px;
-  margin-top: 32px;
+  gap: 2rem;
+  margin-top: 1rem;
   align-items: center;
 }
 
