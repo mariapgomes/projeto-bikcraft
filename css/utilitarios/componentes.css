@@ -113,6 +113,6 @@ img[src$=".jpg"] {
   }
 
   .titulo-pagina p {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 }
