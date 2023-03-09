@@ -59,3 +59,14 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 600px) {
+  .footer-conteudo {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-informacoes {
+    margin-top: 20px;
+  }
+}
