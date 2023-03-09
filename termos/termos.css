@@ -1,16 +1,21 @@
 .termos-bg {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-.termos-lista h3 {
+.termos-lista h2 {
   margin-bottom: 1.25rem;
+  font-weight: 600;
 }
 
-.termos-lista h3:nth-child(n + 2) {
-  margin-top: 48px;
+.margin-top {
+  margin-top: 3rem;
 }
 
 .termos-conteudo ol li + li {
   margin-top: 1.5rem;
+}
+
+.termos-conteudo ol li {
+  max-width: 100ch;
 }
