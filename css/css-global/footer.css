@@ -23,7 +23,7 @@
 .footer-contatos p::after {
   content: '';
   display: block;
-  /* max-width: 360px; */
+  max-width: 360px;
   height: 2px;
   background-color: var(--cor-c11);
   margin-top: 16px;
