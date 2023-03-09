@@ -1,0 +1,23 @@
+/* Reseta os estilos pré-definidos */
+
+body {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1, h2, h3, h4, p, blockquote {
+  margin: 0;
+}

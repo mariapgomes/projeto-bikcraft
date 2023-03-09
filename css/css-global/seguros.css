@@ -1,0 +1,78 @@
+.seguros-bg {
+  background-color: var(--cor-c11);
+  padding: 60px 0 120px 0;
+}
+
+.seguro-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.seguro-plano {
+  background-color: var(--cor-c12);
+  border-radius: 5px;
+}
+
+.seguro-plano:first-child {
+  height: max-content;
+}
+
+.titulo-plano, .seguro-vantagens {
+  padding: 32px 32px 0px 64px;
+}
+
+/* Deixa os icones fora do grid */
+
+.seguro-vantagens {
+  padding-left: 43px;
+}
+
+/* fim */
+
+.titulo-plano {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo-plano p{
+  justify-self: end;
+}
+
+.titulo-plano p:last-child {
+  grid-column: 2;
+}
+
+/* Define o distanciamento entre os itens da lista */
+
+.seguro-vantagens li + li{
+  padding-top: 20px;
+}
+
+/* fim */
+
+/* Insere os icones */
+
+.seguro-vantagens li{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.seguro-vantagens li:before {
+  content: '';
+  width: 13px;
+  height: 9px;
+  background-image: url(/img/icones/check.svg);
+  display: inline-block;
+}
+
+/* fim */
+
+@media (max-width: 800px) {
+  .seguro-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
