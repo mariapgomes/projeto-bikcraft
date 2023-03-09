@@ -45,3 +45,17 @@
 .footer-informacoes ul li + li {
   margin-top: .75rem;
 }
+
+.footer-conteudo h4 {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .footer-conteudo > img {
+    display: none;
+  }
+
+  .footer-conteudo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
