@@ -17,3 +17,7 @@
 @import url(./home/diferencial.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimentos.css);
+
+/* Termos e condições do site */
+
+@import url(../termos/titulo.css);
