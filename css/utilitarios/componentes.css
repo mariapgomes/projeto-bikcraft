@@ -93,3 +93,15 @@ img[src$=".jpg"] {
     height: 3px;
   }
 }
+
+/* Titulo das páginas internas */
+
+.titulo-bg {
+  background-color: var(--cor-c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo-pagina p {
+  margin-bottom: .25rem;
+}
