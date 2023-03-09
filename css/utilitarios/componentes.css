@@ -105,3 +105,14 @@ img[src$=".jpg"] {
 .titulo-pagina p {
   margin-bottom: .25rem;
 }
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo-pagina p {
+    font-size: 1rem;
+  }
+}
