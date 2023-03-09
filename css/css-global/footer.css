@@ -38,9 +38,9 @@
   align-items: center;
 }
 
-/* .footer-conteudo a:hover {
+.footer-conteudo a:hover {
   color: var(--cor-c0);
-} */
+}
 
 .footer-informacoes ul li + li {
   margin-top: .75rem;
