@@ -1,3 +1,16 @@
 .termos-bg {
-  
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.termos-lista h3 {
+  margin-bottom: 1.25rem;
+}
+
+.termos-lista h3:nth-child(n + 2) {
+  margin-top: 48px;
+}
+
+.termos-conteudo ol li + li {
+  margin-top: 1.5rem;
 }
