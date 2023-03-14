@@ -14,3 +14,23 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.375rem;
 }
+
+.bicicleta-conteudo {
+  position: relative;
+}
+
+.bicicleta-conteudo p {
+  margin: 20px 0 32px 0;
+  max-width: 46ch;
+}
+
+.bicicleta-conteudo ul li + li{
+  margin-top: 16px;
+}
+
+.bicicleta-conteudo a {
+  /* justify-self: end; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
