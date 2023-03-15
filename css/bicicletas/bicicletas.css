@@ -2,6 +2,8 @@
   padding: 120px 0;
 }
 
+/* Coloca efeito de background nos itens pares */
+
 .bicicleta-lista > li:nth-child(even){
   margin: 60px 0;
   padding: 60px 0;
@@ -9,15 +11,38 @@
   box-shadow: inset 550px 0 0 var(--cor-c0);
 }
 
+/* fim */
+
+/* Cria layout da lista de bicicletas */
+
 .bicicleta-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.375rem;
+  gap: 40px;
 }
 
-.bicicleta-conteudo {
+/* fim */
+
+/* Insere a tag de preço */
+
+.bicicletas-imagem {
   position: relative;
 }
+
+.bicicletas-imagem span{
+  color: var(--cor-c0);
+  background-color: var(--cor-c12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+/* fim */
+
+/* Coloca o detalhe do título */
 
 .bicicleta-conteudo h2::before{
   content: '';
@@ -27,6 +52,10 @@
   background-color: var(--cor-p1);
   margin-bottom: 8px;
 }
+
+/* fim */
+
+/* Cria o layout do conteúdo */
 
 .bicicleta-conteudo p {
   margin: 20px 0 32px 0;
@@ -48,8 +77,18 @@
   height: 24px;
 }
 
+/* fim */
+
+/* Posiciona o botão */
+
+.bicicleta-conteudo {
+  position: relative;
+}
+
 .bicicleta-conteudo a {
   position: absolute;
   right: 0;
   bottom: 0;
 }
+
+/* fim */
