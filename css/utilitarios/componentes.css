@@ -61,6 +61,14 @@ img[src$=".jpg"] {
   background: var(--cor-c9);
 }
 
+/* botões com seta */
+
+.botao-seta {
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+}
+
 /* Link */
 
 .link{
