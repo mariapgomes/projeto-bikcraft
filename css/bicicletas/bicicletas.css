@@ -50,7 +50,7 @@
   height: 8px;
   display: block;
   background-color: var(--cor-p1);
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 
 /* fim */
@@ -63,12 +63,12 @@
 }
 
 .bicicleta-conteudo ul li + li{
-  margin-top: 16px;
+  margin-top: 1rem;
 }
-
+/* posiciona e redimensiona o icone da lista */
 .bicicleta-conteudo ul li{
   display: flex;
-  gap: 8px;
+  gap: .5rem;
   align-items: center;
 }
 
@@ -76,7 +76,7 @@
   width: 24px;
   height: 24px;
 }
-
+/* -------------------- */
 /* fim */
 
 /* Posiciona o botão */
