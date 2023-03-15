@@ -19,6 +19,15 @@
   position: relative;
 }
 
+.bicicleta-conteudo h2::before{
+  content: '';
+  width: 12px;
+  height: 8px;
+  display: block;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
 .bicicleta-conteudo p {
   margin: 20px 0 32px 0;
   max-width: 46ch;
@@ -28,8 +37,18 @@
   margin-top: 16px;
 }
 
+.bicicleta-conteudo ul li{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bicicleta-conteudo ul li img{
+  width: 24px;
+  height: 24px;
+}
+
 .bicicleta-conteudo a {
-  /* justify-self: end; */
   position: absolute;
   right: 0;
   bottom: 0;
