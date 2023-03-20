@@ -1,0 +1,139 @@
+/* Define estilos que serão reaproveitados em todo o site */
+
+/* Dimenções do container */
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
+
+/* Imagens */
+
+img[src$=".jpg"] {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  /* object-position: top right; */
+}
+
+/* Botões */
+
+.botao {
+  font: 600 1.125rem/1.33 "Poppins", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: var(--cor-bg-botao);
+  color: var(--cor-fonte-botao);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: var(--cor-bg-botao-hover);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+  }
+}
+
+/* botões dos planos de seguros */
+
+.botao-ouro, .botao-prata {
+  margin: 32px 32px 32px 60px;
+}
+
+.botao-prata {
+  background: var(--cor-c10);
+  color: var(--cor-c4);
+}
+
+.botao-prata:hover {
+  background: var(--cor-c9);
+}
+
+/* botões com seta */
+
+.botao-seta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.botao-seta::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 8px;
+  background-image: url(../../img/icones/seta-botao.svg);
+  transition: .2s;
+}
+
+.botao-seta:hover::after {
+ transform: translateX(4px);
+}
+
+/* Link */
+
+.link{
+  display: inline-block;
+  margin-bottom: 5rem;
+  color: var(--cor-p1);
+  text-transform: uppercase;
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+  width: max-content;
+}
+
+.link::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--cor-c0);
+}
+
+@media (max-width: 800px) {
+  .link {
+    font-size: 1.25rem;
+  }
+
+  .link::after{
+    height: 3px;
+  }
+}
+
+/* Titulo das páginas internas */
+
+.titulo-bg {
+  background-color: var(--cor-c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo-pagina p {
+  margin-bottom: .25rem;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo-pagina p {
+    font-size: .75rem;
+  }
+}

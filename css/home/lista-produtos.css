@@ -1,0 +1,48 @@
+.lista-home {
+  margin: 60px auto;
+  margin-bottom: 120px;
+}
+
+.lista-produtos {
+  display: flex;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 40px auto;
+  margin-bottom: 0;
+  padding: 0 20px;
+  overflow-x: auto;
+}
+
+.lista-produtos li {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.lista-item h3 {
+  margin: 1rem 0 .5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.lista-item h3::before {
+  content: '';
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.lista-item p {
+  margin-left: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .lista-home {
+    margin-bottom: 60px;
+  }
+
+  .lista-produtos {
+    gap: 20px;
+  }
+}

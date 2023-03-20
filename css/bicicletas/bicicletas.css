@@ -1,0 +1,138 @@
+.bicicleta-bg {
+  padding: 120px 0;
+}
+
+/* Coloca efeito de background nos itens pares */
+
+.bicicleta-lista > li:nth-child(even){
+  margin: 60px 0;
+  padding: 60px 0;
+  background-image: linear-gradient(to right, var(--cor-c0) 25%, var(--cor-c11) 25%);
+}
+
+/* fim */
+
+/* Cria layout da lista de bicicletas */
+
+.bicicleta-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+/* Faz a imagem se expandir pelo tamanho total da div */
+.bicicletas-imagem img {
+  width: 100%;
+  object-position: top right
+}
+/* ------------- */
+/* fim */
+
+/* Insere a tag de preço */
+
+.bicicletas-imagem {
+  position: relative;
+}
+
+.bicicletas-imagem span{
+  color: var(--cor-c0);
+  background-color: var(--cor-c12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+/* fim */
+
+/* Coloca o detalhe do título */
+
+.bicicleta-conteudo h2::before{
+  content: '';
+  width: 12px;
+  height: 8px;
+  display: block;
+  background-color: var(--cor-p1);
+  margin-bottom: .5rem;
+}
+
+/* fim */
+
+/* Cria o layout do conteúdo */
+
+.bicicleta-conteudo p {
+  margin: 20px 0 32px 0;
+  max-width: 46ch;
+}
+
+.bicicleta-conteudo ul li + li{
+  margin-top: 1rem;
+}
+/* posiciona e redimensiona o icone da lista */
+.bicicleta-conteudo ul li{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.bicicleta-conteudo ul li img{
+  width: 24px;
+  height: 24px;
+}
+/* -------------------- */
+/* fim */
+
+/* Posiciona o botão */
+
+.bicicleta-conteudo {
+  position: relative;
+}
+
+.bicicleta-conteudo a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* fim */
+
+@media (max-width: 800px) {
+  .bicicleta-item {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .bicicleta-lista > li:nth-child(even){
+    margin: 40px 0;
+    padding: 40px 0;
+    background: var(--cor-c11);
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicleta-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-conteudo p {
+    font-size: 1rem;
+  }
+
+  .bicicleta-conteudo ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .bicicleta-conteudo ul li + li{
+    margin: 0;
+  }
+
+  .bicicleta-conteudo a {
+    position: initial;
+    display: inline-block;
+    justify-self: center;
+  }
+}

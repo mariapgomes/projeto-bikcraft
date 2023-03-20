@@ -1,0 +1,27 @@
+/* Reseta estilos pré determinados */
+@import url(./gerais.css);
+
+/* Configurações */
+@import url(./utilitarios/tipografias.css);
+@import url(./utilitarios/cores.css);
+@import url(./utilitarios/componentes.css);
+
+/* Arquivos de múltiplas páginas */
+@import url(./css-global/header.css);
+@import url(./css-global/seguros.css);
+@import url(./css-global/footer.css);
+
+/* Home do site */
+@import url(./home/introducao.css);
+@import url(./home/lista-produtos.css);
+@import url(./home/diferencial.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimentos.css);
+
+/* Bicicletas */
+
+@import url(./bicicletas/bicicletas.css);
+
+/* Termos e condições do site */
+
+@import url(../css/termos/termos.css);

@@ -1,0 +1,95 @@
+.depoimento-bg {
+  background-color: var(--cor-p1);
+}
+
+.depoimento-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-conteudo img{
+  border-radius: 0;
+}
+
+.depoimento-texto {
+  padding: 2.5rem 2.5rem 5rem 5rem;
+  align-self: end;
+}
+
+.depoimento-texto p{
+  max-width: 38ch;
+  font: 900 2.25rem/1.125 "Merriweather", serif;
+  font-style: italic;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* Cria as aspas decorativas */
+
+.depoimento-conteudo p::before, .depoimento-conteudo p::after  {
+  content: '“';
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
+.depoimento-conteudo p::before {
+  left: -3.125rem;
+  top: -1.5625rem;
+}
+
+.depoimento-conteudo p::after {
+  content: '”';
+  bottom: -3.125rem;
+}
+
+/* fim */
+
+.depoimento-texto cite{
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .depoimento-conteudo {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimento-conteudo img{
+    max-height: 200px;
+  }
+
+  .depoimento-texto {
+    padding: 2.5rem 1.25rem;
+    justify-self: center;
+  }
+
+  .depoimento-texto p{
+    max-width: 32ch;
+  }
+
+  .depoimento-conteudo p::before {
+    left: -2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimento-texto p {
+    font-size: 2rem;
+    max-width: 28ch;
+  }
+
+  .depoimento-conteudo p::before, .depoimento-conteudo p::after  {
+    font-size: 4rem;
+  }
+
+  .depoimento-conteudo p::before {
+    left: -1.5625rem;
+    top: -20px;
+  }
+
+  .depoimento-conteudo p::after {
+    bottom: -2.5rem;
+    right: -1.25rem;
+  }
+}
