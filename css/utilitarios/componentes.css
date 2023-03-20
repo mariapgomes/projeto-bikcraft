@@ -65,8 +65,16 @@ img[src$=".jpg"] {
 
 .botao-seta {
   display: flex;
-  align-self: center;
+  align-items: center;
   gap: 1rem;
+}
+
+.botao-seta::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 8px;
+  background-image: url(../../img/icones/seta-botao.svg);
 }
 
 /* Link */
