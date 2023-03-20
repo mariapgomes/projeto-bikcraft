@@ -109,3 +109,30 @@
     padding: 40px 0;
   }
 }
+
+@media (max-width: 600px) {
+  .bicicleta-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-conteudo p {
+    font-size: 1rem;
+  }
+
+  .bicicleta-conteudo ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .bicicleta-conteudo ul li + li{
+    margin: 0;
+  }
+
+  .bicicleta-conteudo a {
+    position: initial;
+    display: inline-block;
+    justify-self: center;
+  }
+}
