@@ -7,7 +7,7 @@
 .bicicleta-lista > li:nth-child(even){
   margin: 60px 0;
   padding: 60px 0;
-  background-image: linear-gradient(to right, var(--cor-c0) 30%, var(--cor-c11) 30%);
+  background-image: linear-gradient(to right, var(--cor-c0) 25%, var(--cor-c11) 25%);
 }
 
 /* fim */
@@ -106,7 +106,7 @@
   .bicicleta-lista > li:nth-child(even){
     margin: 40px 0;
     padding: 40px 0;
-    background-image: linear-gradient(to right, var(--cor-c0) 30%, var(--cor-c11) 30%);
+    background: var(--cor-c11);
   }
 }
 
