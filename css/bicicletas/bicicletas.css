@@ -20,7 +20,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
-
+/* Faz a imagem se expandir pelo tamanho total da div */
+.bicicletas-imagem img {
+  width: 100%;
+  object-position: top right
+}
+/* ------------- */
 /* fim */
 
 /* Insere a tag de preço */
@@ -92,3 +97,15 @@
 }
 
 /* fim */
+
+@media (max-width: 800px) {
+  .bicicleta-item {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .bicicleta-lista > li:nth-child(even){
+    margin: 40px 0;
+    padding: 40px 0;
+  }
+}
