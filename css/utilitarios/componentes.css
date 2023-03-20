@@ -75,6 +75,11 @@ img[src$=".jpg"] {
   width: 18px;
   height: 8px;
   background-image: url(../../img/icones/seta-botao.svg);
+  transition: .2s;
+}
+
+.botao-seta:hover::after {
+ transform: translateX(4px);
 }
 
 /* Link */
