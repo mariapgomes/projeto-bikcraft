@@ -3,6 +3,14 @@
   padding: 60px 0 120px 0;
 }
 
+/* Define o padding top somente da página de seguros */
+
+#seguros .seguros-bg {
+  padding: 0px 0 120px 0;
+}
+
+/* fim */
+
 .seguro-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
