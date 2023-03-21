@@ -22,6 +22,11 @@
 
 @import url(./bicicletas/bicicletas.css);
 
+/* Securos */
+
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas-frequentes.css);
+
 /* Termos e condições do site */
 
 @import url(../css/termos/termos.css);
