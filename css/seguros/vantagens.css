@@ -1,0 +1,15 @@
+.vantagens-bg {
+  background-color: var(--cor-c12);
+}
+
+.vantagens-bg h2{
+  padding-top: 120px;
+}
+
+.vantagens-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
