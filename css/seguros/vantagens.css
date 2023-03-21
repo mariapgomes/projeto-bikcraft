@@ -13,3 +13,61 @@
   padding-top: 72px;
   padding-bottom: 120px;
 }
+
+/* Insere os icones dos itens da lista */
+
+.before-vantagens1::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/eletrica\ 3.svg);
+  margin-bottom: 8px;
+}
+
+.before-vantagens2::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/carbono\ 2.svg);
+  margin-bottom: 8px;
+}
+
+.before-vantagens3::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/sustentavel\ 3.svg);
+  margin-bottom: 8px;
+}
+
+.before-vantagens4::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/rastreador\ 2.svg);
+  margin-bottom: 8px;
+}
+
+.before-vantagens5::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/seguro\ 2.svg);
+  margin-bottom: 8px;
+}
+
+.before-vantagens6::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url(../../img/icones/velocidade\ 2.svg);
+  margin-bottom: 8px;
+}
+
+/* fim */
