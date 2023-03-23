@@ -20,7 +20,7 @@
 
 /* Insere os icones dos itens da lista */
 
-.before-vantagens1::before {
+.before-vantagens1::before, .before-vantagens2::before, .before-vantagens3::before, .before-vantagens4::before, .before-vantagens5::before, .before-vantagens6::before {
   content: '';
   width: 32px;
   height: 32px;
@@ -30,48 +30,23 @@
 }
 
 .before-vantagens2::before {
-  content: '';
-  width: 32px;
-  height: 32px;
-  display: block;
   background-image: url(../../img/icones/carbono\ 2.svg);
-  margin-bottom: 8px;
 }
 
 .before-vantagens3::before {
-  content: '';
-  width: 32px;
-  height: 32px;
-  display: block;
   background-image: url(../../img/icones/sustentavel\ 3.svg);
-  margin-bottom: 8px;
 }
 
 .before-vantagens4::before {
-  content: '';
-  width: 32px;
-  height: 32px;
-  display: block;
   background-image: url(../../img/icones/rastreador\ 2.svg);
-  margin-bottom: 8px;
 }
 
 .before-vantagens5::before {
-  content: '';
-  width: 32px;
-  height: 32px;
-  display: block;
   background-image: url(../../img/icones/seguro\ 2.svg);
-  margin-bottom: 8px;
 }
 
 .before-vantagens6::before {
-  content: '';
-  width: 32px;
-  height: 32px;
-  display: block;
   background-image: url(../../img/icones/velocidade\ 2.svg);
-  margin-bottom: 8px;
 }
 
 /* fim */
