@@ -3,19 +3,19 @@
 }
 
 .vantagens-bg h2{
-  padding-top: 120px;
+  padding-top: 7.5rem;
 }
 
 .vantagens-lista {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px 80px;
-  padding-top: 72px;
-  padding-bottom: 120px;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, max-content));
+  gap: 2.5rem 5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 7.5rem;
 }
 
 .vantagens-lista h3{
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 
 /* Insere os icones dos itens da lista */
@@ -50,3 +50,15 @@
 }
 
 /* fim */
+
+@media(max-width: 800px) {
+  .vantagens-bg h2{
+    padding-top: 3.75rem;
+  }
+  
+  .vantagens-lista {
+    padding-top: 2.5rem;
+    padding-bottom: 3.75rem;
+    gap: 1.25rem;
+  }
+}
