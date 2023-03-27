@@ -1,0 +1,3 @@
+.perguntas-conteudo div:nth-child(odd) {
+  background-color: var(--cor-c1);
+}
