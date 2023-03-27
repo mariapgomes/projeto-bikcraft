@@ -1,3 +1,18 @@
 .perguntas-conteudo div:nth-child(odd) {
   background-color: var(--cor-c1);
 }
+
+/* Cria e posiciona a marcação de lista */
+.perguntas-conteudo div dt::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
+.perguntas-conteudo div dt {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
