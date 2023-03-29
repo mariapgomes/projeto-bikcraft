@@ -28,3 +28,28 @@
 }
 
 /* fim */
+
+@media (max-width: 800px) {
+  .chamada-bg {
+    background-color: var(--cor-c11);
+    box-shadow: inset 0 120px 0 var(--cor-c0);
+  }
+  .chamada-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .chamada-imagem img{
+    height: 300px;
+  }
+
+  .chamada-texto {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    padding-bottom: 60px;
+  }
+
+  .chamada-texto a{
+    justify-self: center;
+  }
+}
