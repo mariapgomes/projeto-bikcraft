@@ -22,6 +22,15 @@
 
 @import url(./bicicletas/bicicletas.css);
 
+/* Seguros */
+
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas-frequentes.css);
+
+/* Especificações do produto */
+
+@import url(./css-global/produto-especificacoes/chamada-seguros.css);
+
 /* Termos e condições do site */
 
 @import url(../css/termos/termos.css);
