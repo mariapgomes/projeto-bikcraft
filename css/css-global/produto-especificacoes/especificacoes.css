@@ -22,3 +22,25 @@
 .especificacoes-galeria li:first-child{
   grid-column: span 2;
 }
+
+/* **Organiza o layout geral dos detalhes */
+
+.especificacoes-detalhes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.especificacoes-descricao {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 2rem .75rem;
+}
+
+.especificacoes-descricao p{
+  grid-column: span 2;
+}
+
+.especificacoes-descricao li:nth-child(2){
+  margin-top: .5rem;
+}
