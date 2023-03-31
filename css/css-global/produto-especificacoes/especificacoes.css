@@ -26,12 +26,6 @@
 
 /* **Organiza o layout geral dos detalhes */
 
-.especificacoes-detalhes {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2.5rem;
-}
-
 .especificacoes-descricao {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -40,6 +34,10 @@
 
 .especificacoes-descricao p{
   grid-column: span 2;
+}
+
+.especificacoes-descricao div{
+  align-self: center;
 }
 
 /* **Organiza as tags */
@@ -78,7 +76,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   background-color: var(--cor-c12);
-  margin-top: 12px;
+  margin-top: .75rem;
   padding: 2rem;
   border-radius: 5px;
 }
