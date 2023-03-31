@@ -57,6 +57,19 @@
   max-width: fit-content;
 }
 
+/* ** Insere o icone das tags */
+
+.especificacoes-tags li::before{
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background-image: url(../../../img/icones/entrega.svg);
+}
+
+.especificacoes-tags li:last-child::before{
+  background-image: url(../../../img/icones/estoque.svg);
+}
+
 /* **Organiza a área de informações */
 
 .especificacoes-vantagens {
