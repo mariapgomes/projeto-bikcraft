@@ -56,3 +56,26 @@
   padding: 2rem;
   border-radius: 5px;
 }
+
+/* **Organiza a tabela */
+
+.especificacoes-ficha table{
+  display: grid;
+  background-color: var(--cor-c12);
+  margin-top: 12px;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.especificacoes-ficha tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+.especificacoes-ficha tr:nth-child(n + 3){
+  margin-top: .75rem;
+}
+
+.especificacoes-ficha td:last-child {
+  text-align: end;
+}
