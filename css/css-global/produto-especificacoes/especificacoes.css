@@ -9,3 +9,16 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
 }
+
+/* **organiza o layout da galeria */
+
+.especificacoes-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  height: fit-content;
+}
+
+.especificacoes-galeria li:first-child{
+  grid-column: span 2;
+}
