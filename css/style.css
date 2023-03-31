@@ -29,6 +29,7 @@
 
 /* Especificações do produto */
 
+@import url(./css-global/produto-especificacoes/especificacoes.css);
 @import url(./css-global/produto-especificacoes/chamada-seguros.css);
 
 /* Termos e condições do site */
