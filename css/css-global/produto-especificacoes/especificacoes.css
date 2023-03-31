@@ -1,0 +1,11 @@
+.especificacoes-bg {
+  background-color: var(--cor-c11);
+}
+
+/* **Organiza o layout geral */
+
+.especificacoes-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
