@@ -1,5 +1,6 @@
 .especificacoes-bg {
   background-color: var(--cor-c11);
+  padding-bottom: 3.75rem;
 }
 
 /* **Organiza o layout geral */
@@ -57,7 +58,7 @@
   max-width: fit-content;
 }
 
-/* ** Insere os icones das tags */
+/* Insere os icones das tags */
 
 .especificacoes-tags li::before{
   content: '';
@@ -103,10 +104,13 @@
 .especificacoes-ficha tr{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.especificacoes-ficha tr:nth-child(n + 3){
-  margin-top: .75rem;
+.especificacoes-ficha tr:nth-child(n + 2){
+  margin-top: 5px;
+  border-top: 1px solid var(--cor-c11); 
+  padding-top: 6px;
 }
 
 .especificacoes-ficha td:last-child {
