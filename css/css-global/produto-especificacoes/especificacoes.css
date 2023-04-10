@@ -155,3 +155,21 @@
     width: 100%;
   }
 }
+
+@media(max-width: 420px) {
+  .especificacoes-descricao {
+    grid-template-columns:1fr;
+  }
+
+  .especificacoes-descricao p{
+    grid-column: 1;
+  }
+
+  .especificacoes-descricao div{
+    justify-self: center;
+  }
+
+  .especificacoes-vantagens {
+    grid-template-columns: 1fr;
+  }
+}
