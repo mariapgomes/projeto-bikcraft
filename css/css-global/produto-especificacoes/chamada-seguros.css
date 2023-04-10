@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   max-width: 1400px;
+  margin: 0 auto;
   padding: 0 20px;
   align-items: center;
 }
