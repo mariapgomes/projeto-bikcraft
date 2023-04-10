@@ -13,10 +13,18 @@
   overflow-x: auto;
 }
 
-#nimbus .lista-produtos {
+/* **Definições específicas para a página de especificações */
+
+#especificacoes .lista-produtos {
   max-width: 1200px;
-  justify-content: center;
+  padding: 0;
 }
+
+#especificacoes .lista-home {
+  margin: 120px auto;
+}
+
+/* **fim */
 
 .lista-produtos li {
   min-width: 200px;
@@ -45,6 +53,10 @@
 @media (max-width: 800px) {
   .lista-home {
     margin-bottom: 60px;
+  }
+
+  #especificacoes .lista-home {
+    margin: 60px auto;
   }
 
   .lista-produtos {

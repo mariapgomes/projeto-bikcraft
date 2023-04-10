@@ -14,17 +14,28 @@
   align-items: center;
 }
 
-.chamada-conteudo div h2{
-  margin-bottom: 32px;
+.chamada-imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.chamada-conteudo div p{
-  margin-bottom: 24px;
+.chamada-imagem img{
+  object-position: center right;
 }
 
 .chamada-texto {
   padding: 180px 0;
-  max-width: 70ch;
+  
+}
+
+.chamada-texto h2{
+  margin-bottom: 32px;
+}
+
+.chamada-texto p{
+  margin-bottom: 24px;
+  max-width: 550px;
 }
 
 /* fim */
@@ -40,6 +51,7 @@
 
   .chamada-imagem img{
     height: 300px;
+    width: 100%;
   }
 
   .chamada-texto {
@@ -47,6 +59,15 @@
     grid-template-columns: 1fr;
     padding: 0;
     padding-bottom: 60px;
+    max-width: 100%;
+  }
+
+  .chamada-texto h2{
+    margin-bottom: 20px;
+  }
+  
+  .chamada-texto p{
+    margin-bottom: 32px;
   }
 
   .chamada-texto a{

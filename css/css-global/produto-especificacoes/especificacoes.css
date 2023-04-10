@@ -1,0 +1,175 @@
+.especificacoes-bg {
+  background-color: var(--cor-c11);
+  padding-bottom: 3.75rem;
+}
+
+/* **Organiza o layout geral */
+
+.especificacoes-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+/* **Organiza o layout da galeria */
+
+.especificacoes-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  height: fit-content;
+}
+
+.especificacoes-galeria li:first-child{
+  grid-column: 1/-1;
+}
+
+/* **Organiza o layout geral dos detalhes */
+
+.especificacoes-detalhes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.especificacoes-descricao {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 2rem .75rem;
+}
+
+.especificacoes-descricao p{
+  grid-column: span 2;
+  max-width: 68ch;
+}
+
+/* Centraliza o botão */
+
+.especificacoes-descricao div{
+  align-self: center;
+}
+
+#nimbus .botao {
+  margin-top: 0;
+}
+
+/* **Organiza as tags */
+
+.especificacoes-tags li:nth-child(2){
+  margin-top: .5rem;
+}
+
+.especificacoes-tags li{
+  background-color: var(--cor-c12);
+  border-radius: 5px;
+  padding: .25rem .5rem;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  max-width: fit-content;
+}
+
+/* Insere os icones das tags */
+
+.especificacoes-tags li::before{
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background-image: url(../../../img/icones/entrega.svg);
+}
+
+.especificacoes-tags li:last-child::before{
+  background-image: url(../../../img/icones/estoque.svg);
+}
+
+/* **Organiza a área de informações */
+
+.especificacoes-vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background-color: var(--cor-c12);
+  margin-top: .75rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.especificacoes-vantagens img {
+ margin-bottom: .25rem;
+}
+
+.especificacoes-vantagens h3 {
+  margin-bottom: .5rem;
+}
+
+.especificacoes-vantagens p {
+  max-width: 30ch;
+}
+
+/* **Organiza a tabela */
+
+.especificacoes-ficha table{
+  display: grid;
+  background-color: var(--cor-c12);
+  margin-top: 12px;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.especificacoes-ficha tr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.especificacoes-ficha tr:nth-child(n + 2){
+  margin-top: 5px;
+  border-top: 1px solid var(--cor-c11); 
+  padding-top: 6px;
+}
+
+.especificacoes-ficha td:last-child {
+  text-align: end;
+}
+
+@media (max-width: 950px) {
+  .especificacoes-bg {
+    background-color: var(--cor-c11);
+    padding-bottom: 40px;
+  }
+
+  #nimbus .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .especificacoes-detalhes {
+    grid-row: 1;
+  }
+
+  .especificacoes-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .especificacoes-galeria li:first-child img{
+    width: 100%;
+  }
+}
+
+@media(max-width: 420px) {
+  .especificacoes-descricao {
+    grid-template-columns:1fr;
+  }
+
+  .especificacoes-descricao p{
+    grid-column: 1;
+  }
+
+  .especificacoes-descricao div{
+    justify-self: center;
+  }
+
+  .especificacoes-vantagens {
+    grid-template-columns: 1fr;
+  }
+}

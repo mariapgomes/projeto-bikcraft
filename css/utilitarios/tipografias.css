@@ -40,8 +40,12 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 
-.font-1-xs {
+.font-1-xs, .font-1-xs-b {
   font: 600 .75rem/1.5 "Poppins", sans-serif;
+}
+
+.font-1-xs-b {
+  letter-spacing: .0938rem;
 }
 
 .font-2-xs {
