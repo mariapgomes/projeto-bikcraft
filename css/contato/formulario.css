@@ -29,3 +29,31 @@
 .contato-redes {
   margin-top: 60px;
 }
+
+/* **Insere os icones da lista */
+
+.contato-lista-conteudo > li::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../../img/icones/local.svg);
+}
+
+.contato-lista-conteudo > li {
+  display: flex;
+  gap: 8px;
+}
+
+.contato-lista-conteudo > li:nth-child(2)::before {
+  margin-top: 32px;
+  background-image: url(../../img/icones/email.svg);
+}
+
+.contato-lista-conteudo > li:nth-child(3)::before {
+  background-image: url(../../img/icones/telefone.svg);
+}
+
+.contato-lista-conteudo > li:last-child::before {
+  display: none;
+}
