@@ -32,6 +32,11 @@
 @import url(./css-global/produto-especificacoes/especificacoes.css);
 @import url(./css-global/produto-especificacoes/chamada-seguros.css);
 
+/* Contato */
+
+@import url(./contato/formulario.css);
+@import url(./contato/lojas.css);
+
 /* Termos e condições do site */
 
 @import url(../css/termos/termos.css);
