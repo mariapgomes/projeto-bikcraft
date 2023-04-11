@@ -1,0 +1,31 @@
+.contato-bg {
+  background-color: var(--cor-c11);
+  box-shadow: inset 0 -200px 0 var(--cor-c1)
+}
+
+.contato-lista {
+  background-color: var(--cor-c12);
+  padding: 60px 0 40px 60px;
+}
+
+.formulario {
+  background-color: var(--cor-c0);
+  padding: 60px 40px 40px 60px;
+}
+
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contato-lista h2 {
+  margin-bottom: 60px;
+}
+
+.contato-email {
+  margin: 32px 0;
+}
+
+.contato-redes {
+  margin-top: 60px;
+}
