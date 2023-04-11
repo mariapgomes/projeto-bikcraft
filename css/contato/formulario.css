@@ -32,17 +32,21 @@
 
 /* **Insere os icones da lista */
 
+.contato-lista-conteudo > li {
+  display: flex;
+  gap: .5rem;
+}
+
+.contato-lista-conteudo > li:last-child {
+  display: block;
+}
+
 .contato-lista-conteudo > li::before {
   content: '';
   width: 1.25rem;
   height: 1.25rem;
   display: inline-block;
   background-image: url(../../img/icones/local.svg);
-}
-
-.contato-lista-conteudo > li {
-  display: flex;
-  gap: .5rem;
 }
 
 .contato-lista-conteudo > li:nth-child(2)::before {
@@ -56,4 +60,8 @@
 
 .contato-lista-conteudo > li:last-child::before {
   display: none;
+}
+
+.contato-conteudo a:hover {
+  color: var(--cor-c0);
 }
