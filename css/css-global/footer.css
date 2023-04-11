@@ -38,6 +38,11 @@
   align-items: center;
 }
 
+.footer-redes a{
+  display: flex;
+  max-height: 32px;
+}
+
 .footer-conteudo a:hover {
   color: var(--cor-c0);
 }
