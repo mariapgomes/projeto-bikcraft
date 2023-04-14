@@ -8,11 +8,6 @@
   padding: 3.75rem 0 2.5rem 3.75rem;
 }
 
-.formulario {
-  background-color: var(--cor-c0);
-  padding: 3.75rem 2.5rem 2.5rem 3.75rem;
-}
-
 .contato-conteudo {
   display: grid;
   grid-template-columns: minmax(0, 460px) 1fr;

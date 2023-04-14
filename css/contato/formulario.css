@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  background-color: var(--cor-c0);
+  padding: 3.75rem;
 }
 
 .formulario div:nth-child(n + 3), .formulario-botao{
