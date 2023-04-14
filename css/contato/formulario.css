@@ -23,3 +23,8 @@
   border-radius: 5px;
   padding: 12px;
 }
+
+.formulario-botao {
+  border: none;
+  max-width: max-content;
+}
