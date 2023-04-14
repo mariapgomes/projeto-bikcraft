@@ -30,6 +30,7 @@
 @import url(./css-global/produto-especificacoes/chamada-seguros.css);
 
 /* Contato */
+@import url(./contato/loja-online.css);
 @import url(./contato/formulario.css);
 @import url(./contato/lojas.css);
 
