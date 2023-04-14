@@ -1,0 +1,23 @@
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formulario div:nth-child(n + 3), .formulario-botao{
+  grid-column: span 2;
+}
+
+.formulario div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+}
+
+.formulario input, .formulario textarea {
+  cursor: pointer;
+  background-color: var(--cor-c1);
+  border: 1px solid var(--cor-c2);
+  border-radius: 5px;
+  padding: 12px;
+}
