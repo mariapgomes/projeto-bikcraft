@@ -1,5 +1,5 @@
 #contatos {
-  background-color: var(--cor-c1);
+  background-color: var(--cor-c12);
 }
 
 .lojas-bg {
@@ -10,6 +10,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
+  margin-top: 60px;
+}
+
+.loja-mapa {
+  border-radius: 5px 5px 0 0;
 }
 
 .loja-informacoes {
@@ -17,7 +22,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px 60px;
-  padding: 0 0 32px 36px;
+  padding: 0 20px 32px 36px;
+  border-radius: 0 0 5px 5px;
 }
 
 .loja-informacoes h3 {
@@ -52,6 +58,7 @@
   margin-left: 0;
   display: flex;
   align-items: center;
+  grid-column: span 2;
 }
 
 /* **Define o espaçamento entre os elementos */
