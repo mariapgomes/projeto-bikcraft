@@ -38,56 +38,59 @@
 
     <article aria-label="Formulário" class="contato-bg">
 
-      <div class="contato-conteudo container">
-        <div class="contato-lista">
+      <div class="container">
 
-          <h2 class="font-1-s cor-c0">Loja Online</h2>
+        <div class="contato-conteudo">
+          <div class="contato-lista">
 
-          <ul class="contato-lista-conteudo font-2-s">
-            <li class="cor-c4">Rua Ali perto, 35<br> Rio de Janeiro - RJ<br> Brasil - Terra - Via Láctea</li>
-            <li>
-              <ul class="contato-email">
-                <li><a href="mailto:vendas@bikcraft.com" class="cor-c4">vendas@bikcraft.com</a></li>
-                <li><a href="mailto:assistencia@bikcraft.com" class="cor-c4">assistencia@bikcraft.com</a></li>
-              </ul>
-            <li><a href="tel:+552199999999" class="cor-c4">+55 21 9999-9999</a></li>
-            <li>
-              <ul class="contato-redes footer-redes">
-                <li><a href="./"><img src="./img/redes/instagram 1.svg" alt="Instagram" width="32" height="32"></a></li>
-                <li><a href="./"><img src="./img/redes/facebook 1.svg" alt="Facebook" width="32" height="32"></a></li>
-                <li><a href="./"><img src="./img/redes/youtube 1.svg" alt="Youtube" width="32" height="32"></a></li>
-              </ul>
-            </li>
-          </ul>
+            <h2 class="font-1-s cor-c0">Loja Online</h2>
 
+            <ul class="contato-lista-conteudo font-2-s">
+              <li class="cor-c4">Rua Ali perto, 35<br> Rio de Janeiro - RJ<br> Brasil - Terra - Via Láctea</li>
+              <li>
+                <ul class="contato-email">
+                  <li><a href="mailto:vendas@bikcraft.com" class="cor-c4">vendas@bikcraft.com</a></li>
+                  <li><a href="mailto:assistencia@bikcraft.com" class="cor-c4">assistencia@bikcraft.com</a></li>
+                </ul>
+              <li><a href="tel:+552199999999" class="cor-c4">+55 21 9999-9999</a></li>
+              <li>
+                <ul class="contato-redes footer-redes">
+                  <li><a href="./"><img src="./img/redes/instagram 1.svg" alt="Instagram" width="32" height="32"></a></li>
+                  <li><a href="./"><img src="./img/redes/facebook 1.svg" alt="Facebook" width="32" height="32"></a></li>
+                  <li><a href="./"><img src="./img/redes/youtube 1.svg" alt="Youtube" width="32" height="32"></a></li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+
+          <form action="/" method="post" class="formulario">
+
+            <div>
+              <label for="nome" class="font-1-s cor-c11">Nome</label>
+              <input type="text" id="nome" name="nome" required placeholder="Seu Nome" class="font-2-s cor-c7">
+            </div>
+
+            <div>
+              <label for="nome" class="font-1-s cor-c11">Telefone</label>
+              <input type="number" id="number" name="telefone" required placeholder="(21) 99999 - 9999" class="font-2-s cor-c7">
+            </div>
+
+            <div>
+              <label for="nome" class="font-1-s cor-c11">Email</label>
+              <input type="text" id="email" name="email" required placeholder="contato@email.com" class="font-2-s cor-c7">
+            </div>
+
+            <div>
+              <label for="nome" class="font-1-s cor-c11">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Oque você precisa?" class="font-2-s cor-c7"></textarea>
+            </div>
+
+            <button class="formulario-botao botao">enviar mensagem</button>
+            
+          </form>
         </div>
-
-        <form action="/" method="post" class="formulario">
-
-          <div>
-            <label for="nome" class="font-1-s cor-c11">Nome</label>
-            <input type="text" id="nome" name="nome" required placeholder="Seu Nome" class="font-2-s cor-c7">
-          </div>
-
-          <div>
-            <label for="nome" class="font-1-s cor-c11">Telefone</label>
-            <input type="number" id="number" name="telefone" required placeholder="(21) 99999 - 9999" class="font-2-s cor-c7">
-          </div>
-
-          <div>
-            <label for="nome" class="font-1-s cor-c11">Email</label>
-            <input type="text" id="email" name="email" required placeholder="contato@email.com" class="font-2-s cor-c7">
-          </div>
-
-          <div>
-            <label for="nome" class="font-1-s cor-c11">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Oque você precisa?" class="font-2-s cor-c7"></textarea>
-          </div>
-
-          <button class="formulario-botao botao">enviar mensagem</button>
-          
-        </form>
-
+        
       </div>
 
     </article>

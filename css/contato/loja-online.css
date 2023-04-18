@@ -6,12 +6,15 @@
 .contato-lista {
   background-color: var(--cor-c12);
   padding: 3.75rem 0 2.5rem 3.75rem;
+  border-radius: 5px 0 0 5px;
 }
 
 .contato-conteudo {
   display: grid;
   grid-template-columns: minmax(0, 460px) 1fr;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
+  box-shadow: 1px 1px 4px 0px var(--cor-c2);
+  border-radius: .3125rem;
 }
 
 .contato-lista h2 {
