@@ -17,12 +17,21 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px 60px;
-  padding: 0 0 32px 40px;
+  padding: 0 0 32px 36px;
 }
 
 .loja-informacoes h3 {
   padding: 32px 0 0px 0px;
   grid-column: span 2;
+  display: flex;
+  align-items: center;
+}
+
+/* **Posiciona o icone do título */
+
+#contatos .icone::before {
+  margin-right: 12px;
+  margin-left: 4px;
 }
 
 /* **Define o posicionamento do separador */
@@ -30,7 +39,7 @@
 .loja-contato, .loja-informacoes p {
   padding-left: 12px;
   border-left: 2px solid var(--cor-c2);
-  margin-left: 22px;
+  margin-left: 28px;
 }
 
 .loja-contato {
@@ -41,6 +50,8 @@
   border: none;
   padding-left: 0;
   margin-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 /* **Define o espaçamento entre os elementos */
@@ -56,4 +67,13 @@
 
 .loja-span:first-child {
   margin-bottom: 0;
+}
+
+.loja-informacoes p:last-child::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../../img/icones/horario.svg);
+  display: inline-block;
+  margin-right: 8px;
 }
