@@ -11,6 +11,8 @@
   grid-column: span 2;
 }
 
+/* **Organiza o layout de cada input e label */
+
 .formulario div {
   display: grid;
   grid-template-columns: 1fr;
