@@ -37,15 +37,6 @@
   align-items: center;
 }
 
-.lista-item h3::before {
-  content: '';
-  width: 12px;
-  height: 8px;
-  background-color: var(--cor-p1);
-  display: inline-block;
-  margin-right: 8px;
-}
-
 .lista-item p {
   margin-left: 1.25rem;
 }
