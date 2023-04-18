@@ -42,3 +42,18 @@
   padding-left: 0;
   margin-left: 0;
 }
+
+/* **Define o espaçamento entre os elementos */
+
+.loja-contato li {
+  margin: 4px 0;
+}
+
+.loja-span {
+  display: inline-block;
+  margin: 4px 0;
+}
+
+.loja-span:first-child {
+  margin-bottom: 0;
+}
