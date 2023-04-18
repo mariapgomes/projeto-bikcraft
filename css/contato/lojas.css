@@ -1,0 +1,44 @@
+#contatos {
+  background-color: var(--cor-c1);
+}
+
+.lojas-bg {
+  margin-bottom: 7.5rem;
+}
+
+.lojas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.loja-informacoes {
+  background-color: var(--cor-c0);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 60px;
+  padding: 0 0 32px 40px;
+}
+
+.loja-informacoes h3 {
+  padding: 32px 0 0px 0px;
+  grid-column: span 2;
+}
+
+/* **Define o posicionamento do separador */
+
+.loja-contato, .loja-informacoes p {
+  padding-left: 12px;
+  border-left: 2px solid var(--cor-c2);
+  margin-left: 22px;
+}
+
+.loja-contato {
+  margin-left: 0;
+}
+
+.loja-informacoes p:last-child {
+  border: none;
+  padding-left: 0;
+  margin-left: 0;
+}

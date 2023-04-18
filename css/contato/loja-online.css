@@ -1,6 +1,6 @@
 .contato-bg {
   background-color: var(--cor-c11);
-  box-shadow: inset 0 -200px 0 var(--cor-c1)
+  box-shadow: inset 0 -200px 0 var(--cor-c1);
 }
 
 /* **Controla o layout */
