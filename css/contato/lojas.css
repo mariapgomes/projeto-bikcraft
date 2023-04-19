@@ -1,5 +1,5 @@
 #contatos {
-  background-color: var(--cor-c12);
+  background-color: var(--cor-c1);
 }
 
 .lojas-bg {
@@ -83,4 +83,8 @@
   background-image: url(../../img/icones/horario.svg);
   display: inline-block;
   margin-right: 8px;
+}
+
+.lojas-localizacao {
+  box-shadow: 1px 1px 4px 0px var(--cor-c2);
 }
