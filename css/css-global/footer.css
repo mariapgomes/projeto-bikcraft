@@ -38,6 +38,11 @@
   align-items: center;
 }
 
+.footer-redes a{
+  display: flex;
+  max-height: 32px;
+}
+
 .footer-conteudo a:hover {
   color: var(--cor-c0);
 }
@@ -51,19 +56,24 @@
 }
 
 @media (max-width: 800px) {
-  .footer-conteudo > img {
-    display: none;
-  }
-
   .footer-conteudo {
     grid-template-columns: 1fr 1fr;
   }
+
+  .footer-conteudo > a {
+    grid-column: span 2;
+  }
+
 }
 
 @media (max-width: 600px) {
   .footer-conteudo {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .footer-conteudo > a {
+    grid-column: span 1;
   }
 
   .footer-informacoes {

@@ -19,19 +19,20 @@
 @import url(./home/depoimentos.css);
 
 /* Bicicletas */
-
 @import url(./bicicletas/bicicletas.css);
 
 /* Seguros */
-
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas-frequentes.css);
 
 /* Especificações do produto */
-
 @import url(./css-global/produto-especificacoes/especificacoes.css);
 @import url(./css-global/produto-especificacoes/chamada-seguros.css);
 
-/* Termos e condições do site */
+/* Contato */
+@import url(./contato/loja-online.css);
+@import url(./contato/formulario.css);
+@import url(./contato/lojas.css);
 
+/* Termos e condições do site */
 @import url(../css/termos/termos.css);

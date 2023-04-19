@@ -1,0 +1,135 @@
+#contatos {
+  background-color: var(--cor-c1);
+}
+
+.lojas-bg {
+  margin-bottom: 7.5rem;
+}
+
+.lojas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-top: 3.75rem;
+}
+
+.loja-informacoes {
+  background-color: var(--cor-c0);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 3.75rem;
+  padding: 0 1.25rem 2rem 2.25rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.loja-informacoes h3 {
+  padding: 2rem 0 0px 0px;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+}
+
+/* **Posiciona o icone do título */
+
+#contatos .icone::before {
+  margin-right: .75rem;
+  margin-left: .25rem;
+}
+
+/* **Define o posicionamento do separador */
+
+.loja-contato, .loja-informacoes p {
+  padding-left: .75rem;
+  border-left: .125rem solid var(--cor-c2);
+  margin-left: 1.75rem;
+}
+
+.loja-contato {
+  margin-left: 0;
+}
+
+.loja-informacoes p:last-child {
+  border: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  grid-column: span 2;
+}
+
+/* **Define o espaçamento entre os elementos e efeito hover*/
+
+.loja-contato li {
+  margin: .25rem 0;
+}
+
+.loja-contato li a:hover {
+  color: var(--cor-c12);
+}
+
+.loja-span {
+  display: inline-block;
+  margin: .25rem 0;
+}
+
+.loja-span:first-child {
+  margin-bottom: 0;
+}
+
+.loja-informacoes p:last-child::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url(../../img/icones/horario.svg);
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+/* **Define a sombra dos cards */
+
+.lojas-localizacao {
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* **Define a borda da imagem */
+
+#contatos img[src$=".jpg"], .lojas-mapa {
+  border-radius: 5px 5px 0 0;
+}
+
+@media (max-width: 1050px) {
+  .lojas-bg {
+    margin-bottom: 3.75rem;
+  }
+
+  .lojas-conteudo {
+    /* grid-template-columns: max-content; */
+    gap: 1.25rem;
+    margin-top: 32px;
+  }
+
+  .loja-informacoes {
+    grid-template-columns: 1fr;
+  }
+  
+  .loja-informacoes h3, .loja-informacoes p:last-child {
+    padding: 2rem 0 0px 0px;
+    grid-column: span 1;
+  }
+
+  .loja-contato {
+    margin-left: 1.75rem;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .lojas-conteudo {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .loja-informacoes {
+    grid-template-columns: 1fr;
+  }
+}

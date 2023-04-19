@@ -137,3 +137,19 @@ img[src$=".jpg"] {
     font-size: .75rem;
   }
 }
+
+/* Icones de h3 */
+
+.icone::before {
+  content: '';
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  display: inline-block;
+  margin-right: 8px;
+  transition: .3s;
+}
+
+.icone:hover::before {
+  width: 20px;
+}

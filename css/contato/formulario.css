@@ -1,0 +1,65 @@
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  background-color: var(--cor-c0);
+  padding: 3.75rem;
+  border-radius: 0 5px 5px 0;
+}
+
+.formulario div:nth-child(n + 3), .formulario-botao{
+  grid-column: span 2;
+}
+
+/* **Organiza e estiliza o layout de cada input e label */
+
+.formulario div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .25rem;
+}
+
+.formulario input, .formulario textarea {
+  cursor: pointer;
+  background-color: var(--cor-c1);
+  border: 1px solid var(--cor-c2);
+  border-radius: 5px;
+  padding: .75rem;
+}
+
+.formulario input:focus, .formulario textarea:focus {
+  background-color: var(--cor-c0);
+  outline: none;
+  border-color: var(--cor-p1);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.formulario-botao {
+  border: none;
+  max-width: max-content;
+}
+
+@media (max-width: 950px) {
+  .formulario {
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .formulario {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .formulario div:nth-child(n + 3), .formulario-botao{
+    grid-column: span 1;
+  }
+
+  .formulario input, .formulario textarea {
+    min-width: 190px;
+  }
+
+  #contatos .botao {
+    margin-top: 0;
+  }
+}
