@@ -88,3 +88,9 @@
     margin: 0;
   }
 }
+
+@media (max-width: 650px) {
+  .contato-lista-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
