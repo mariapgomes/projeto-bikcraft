@@ -97,4 +97,8 @@
   .contato-lista {
     padding: 2rem;
   }
+
+  .contato-lista h2 {
+    margin-bottom: 32px;
+  }
 }

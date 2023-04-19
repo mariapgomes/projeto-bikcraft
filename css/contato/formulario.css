@@ -55,6 +55,10 @@
     grid-column: span 1;
   }
 
+  .formulario input, .formulario textarea {
+    min-width: 190px;
+  }
+
   #contatos .botao {
     margin-top: 0;
   }
