@@ -122,3 +122,14 @@
   }
 
 }
+
+@media (max-width: 650px) {
+  .lojas-conteudo {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .loja-informacoes {
+    grid-template-columns: 1fr;
+  }
+}
