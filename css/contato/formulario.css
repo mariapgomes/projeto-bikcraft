@@ -31,3 +31,9 @@
   border: none;
   max-width: max-content;
 }
+
+@media (max-width: 950px) {
+  .formulario {
+    border-radius: 0 0 5px 5px;
+  }
+}
