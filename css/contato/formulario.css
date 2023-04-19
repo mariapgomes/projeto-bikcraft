@@ -27,6 +27,13 @@
   padding: .75rem;
 }
 
+.formulario input:focus, .formulario textarea:focus {
+  background-color: var(--cor-c0);
+  outline: none;
+  border-color: var(--cor-p1);
+  box-shadow: 0 0 0 2px #fea;
+}
+
 .formulario-botao {
   border: none;
   max-width: max-content;
