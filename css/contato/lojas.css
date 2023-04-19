@@ -88,7 +88,7 @@
 /* **Define a sombra dos cards */
 
 .lojas-localizacao {
-  box-shadow: 1px 1px 4px 0px var(--cor-c2);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* **Define a borda da imagem */
