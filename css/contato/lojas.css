@@ -96,3 +96,29 @@
 #contatos img[src$=".jpg"], .lojas-mapa {
   border-radius: 5px 5px 0 0;
 }
+
+@media (max-width: 1050px) {
+  .lojas-bg {
+    margin-bottom: 3.75rem;
+  }
+
+  .lojas-conteudo {
+    /* grid-template-columns: max-content; */
+    gap: 1.25rem;
+    margin-top: 32px;
+  }
+
+  .loja-informacoes {
+    grid-template-columns: 1fr;
+  }
+  
+  .loja-informacoes h3, .loja-informacoes p:last-child {
+    padding: 2rem 0 0px 0px;
+    grid-column: span 1;
+  }
+
+  .loja-contato {
+    margin-left: 1.75rem;
+  }
+
+}
