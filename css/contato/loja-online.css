@@ -71,7 +71,7 @@
 @media (max-width: 950px) {
   .contato-conteudo {
     grid-template-columns: 1fr;
-    margin-bottom: 7.5rem;
+    margin-bottom: 3.75rem;
   }
 
   .contato-lista {
@@ -92,5 +92,9 @@
 @media (max-width: 650px) {
   .contato-lista-conteudo {
     grid-template-columns: 1fr;
+  }
+
+  .contato-lista {
+    padding: 2rem;
   }
 }
