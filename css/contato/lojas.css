@@ -10,24 +10,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
-  margin-top: 60px;
-}
-
-#contatos img[src$=".jpg"], .lojas-mapa {
-  border-radius: 5px 5px 0 0;
+  margin-top: 3.75rem;
 }
 
 .loja-informacoes {
   background-color: var(--cor-c0);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px 60px;
-  padding: 0 20px 32px 36px;
+  gap: 2rem 3.75rem;
+  padding: 0 1.25rem 2rem 2.25rem;
   border-radius: 0 0 5px 5px;
 }
 
 .loja-informacoes h3 {
-  padding: 32px 0 0px 0px;
+  padding: 2rem 0 0px 0px;
   grid-column: span 2;
   display: flex;
   align-items: center;
@@ -36,16 +32,16 @@
 /* **Posiciona o icone do título */
 
 #contatos .icone::before {
-  margin-right: 12px;
-  margin-left: 4px;
+  margin-right: .75rem;
+  margin-left: .25rem;
 }
 
 /* **Define o posicionamento do separador */
 
 .loja-contato, .loja-informacoes p {
-  padding-left: 12px;
-  border-left: 2px solid var(--cor-c2);
-  margin-left: 28px;
+  padding-left: .75rem;
+  border-left: .125rem solid var(--cor-c2);
+  margin-left: 1.75rem;
 }
 
 .loja-contato {
@@ -61,15 +57,19 @@
   grid-column: span 2;
 }
 
-/* **Define o espaçamento entre os elementos */
+/* **Define o espaçamento entre os elementos e efeito hover*/
 
 .loja-contato li {
-  margin: 4px 0;
+  margin: .25rem 0;
+}
+
+.loja-contato li a:hover {
+  color: var(--cor-c12);
 }
 
 .loja-span {
   display: inline-block;
-  margin: 4px 0;
+  margin: .25rem 0;
 }
 
 .loja-span:first-child {
@@ -82,9 +82,17 @@
   height: 20px;
   background-image: url(../../img/icones/horario.svg);
   display: inline-block;
-  margin-right: 8px;
+  margin-right: .5rem;
 }
+
+/* **Define a sombra dos cards */
 
 .lojas-localizacao {
   box-shadow: 1px 1px 4px 0px var(--cor-c2);
+}
+
+/* **Define a borda da imagem */
+
+#contatos img[src$=".jpg"], .lojas-mapa {
+  border-radius: 5px 5px 0 0;
 }
