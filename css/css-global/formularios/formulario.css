@@ -59,7 +59,7 @@
     min-width: 190px;
   }
 
-  #contatos .botao {
+  #contatos .botao, #orcamento .botao {
     margin-top: 0;
   }
 }
