@@ -44,62 +44,27 @@
 
           <section aria-label="Opções para orçamento" class="contato-lista">
 
-            <h2 class="font-1-m cor-c0">Loja Online</h2>
+            <form action="/" method="post" class="orcamento cor-c4">
 
-            <address>
-              <ul class="contato-lista-conteudo font-2-s">
-                <li class="cor-c4">
-                  Rua Ali Perto, 35
-                  <br>
-                  Rio de Janeiro - RJ
-                  <br>
-                  Brasil - Terra - Via Láctea</li>
-                <li>
-                  <ul class="contato-email">
-                    <li><a href="mailto:vendas@bikcraft.com" class="font-2-s cor-c4">vendas@bikcraft.com</a></li>
-                    <li><a href="mailto:assistencia@bikcraft.com" class="font-2-s cor-c4">assistencia@bikcraft.com</a></li>
-                  </ul>
-                <li><a href="tel:+552199999999" class="cor-c4">+55 21 9999-9999</a></li>
-                <li>
-                  <ul class="contato-redes footer-redes">
-                    <li><a href="./"><img src="../img/redes/instagram 1.svg" alt="Instagram" width="32" height="32"></a></li>
-                    <li><a href="./"><img src="../img/redes/facebook 1.svg" alt="Facebook" width="32" height="32"></a></li>
-                    <li><a href="./"><img src="../img/redes/youtube 1.svg" alt="Youtube" width="32" height="32"></a></li>
-                  </ul>
-                </li>
-              </ul>
-            </address>
-
-          </section>
-
-          <section aria-label="Formulário para orçamento">
-
-            <form action="/" method="post" class="formulario">
-
+              <h2 class="font-1-xs cor-c5">Bikcraft ou Seguro?</h2>
               <div>
-                <label for="nome" class="font-1-s cor-c11">Nome</label>
-                <input type="text" id="nome" name="nome" required placeholder="Seu Nome" class="font-2-s cor-c7">
+                <input type="radio" name="tipo" value="bikcraft" id="bikcraft" radio="radio">
+                <label for="bikcraft">Bickraft</label>
+                
+                <input type="radio" name="tipo" value="seguro" id="seguro" radio="radio">
+                <label for="seguro">Seguro</label>
+
+                <div class="orcamento-conteudo" id="orcamento-bikcraft">
+                  <h2 class="font-1-l cor-c0">Escolha a sua (Bickraft)</h2>
+                </div>
+
+                <div class="orcamento-conteudo" id="orcamento-seguro">
+                  <h2 class="font-1-l cor-c0">Escolha o plano</h2>
+                </div>
               </div>
 
-              <div>
-                <label for="nome" class="font-1-s cor-c11">Telefone</label>
-                <input type="number" id="number" name="telefone" required placeholder="(21) 99999-9999" class="font-2-s cor-c7">
-              </div>
-
-              <div>
-                <label for="nome" class="font-1-s cor-c11">Email</label>
-                <input type="text" id="email" name="email" required placeholder="contato@email.com" class="font-2-s cor-c7">
-              </div>
-
-              <div>
-                <label for="nome" class="font-1-s cor-c11">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Oque você precisa?" class="font-2-s cor-c7"></textarea>
-              </div>
-
-              <button class="formulario-botao botao">enviar mensagem</button>
-              
             </form>
-
+            
           </section>
 
         </div>
