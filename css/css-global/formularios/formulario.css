@@ -8,7 +8,7 @@
   border-radius: 0 5px 5px 0;
 }
 
-.inputs:nth-child(n + 3), .formulario-botao {
+.formulario-botao {
   grid-column: span 2;
 }
 
@@ -52,7 +52,7 @@
     padding: 2rem;
   }
 
-  .inputs:nth-child(n + 3), .formulario-botao{
+  #contatos .span2, .formulario-botao{
     grid-column: span 1;
   }
 
