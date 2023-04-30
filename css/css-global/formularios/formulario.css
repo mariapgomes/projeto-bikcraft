@@ -1,3 +1,4 @@
+/* **Layout da página de contato */
 .formulario {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,13 +8,13 @@
   border-radius: 0 5px 5px 0;
 }
 
-.formulario div:nth-child(n + 3), .formulario-botao{
+.inputs:nth-child(n + 3), .formulario-botao {
   grid-column: span 2;
 }
 
 /* **Organiza e estiliza o layout de cada input e label */
 
-.formulario div {
+.inputs {
   display: grid;
   grid-template-columns: 1fr;
   gap: .25rem;
@@ -51,7 +52,7 @@
     padding: 2rem;
   }
 
-  .formulario div:nth-child(n + 3), .formulario-botao{
+  .inputs:nth-child(n + 3), .formulario-botao{
     grid-column: span 1;
   }
 
