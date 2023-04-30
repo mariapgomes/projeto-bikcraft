@@ -1,0 +1,19 @@
+/* **Layout de dados */
+
+#orcamento .formulario {
+  grid-template-columns: 1fr;
+}
+
+#orcamento .formulario-botao {
+  grid-column: span 1;
+}
+
+.orcamento-dados, .orcamento-entrega {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.span2 {
+  grid-column: span 2;
+}
