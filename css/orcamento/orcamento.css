@@ -16,3 +16,19 @@
   gap: .75rem;
   align-items: center;
 }
+
+/* **Insere o icone dos títulos*/
+
+.orcamento-dados h2::before, .orcamento-entrega h2::before {
+  content: '';
+  width: .25rem;
+  height: .5rem;
+  display: inline-block;
+  background-color: var(--cor-p1);
+}
+
+.orcamento-dados h2, .orcamento-entrega h2 {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
