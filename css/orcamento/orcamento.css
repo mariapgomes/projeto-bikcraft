@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+  position: relative;
 }
 
 .input-termos {
@@ -19,19 +20,24 @@
 
 /* **Insere o icone dos títulos*/
 
-.orcamento-dados h2::before, .orcamento-entrega h2::before {
+ .orcamento h2::before, .orcamento-dados h2::before, .orcamento-entrega h2::before {
   content: '';
   width: .25rem;
   height: .5rem;
   display: inline-block;
   background-color: var(--cor-p1);
+  position: absolute;
+  left: -12px;
 }
 
-.orcamento-dados h2, .orcamento-entrega h2 {
+.orcamento h2, .orcamento-dados h2, .orcamento-entrega h2 {
   display: flex;
   align-items: center;
   gap: .5rem;
+
 }
+
+/* **Estiliza o input e label */
 
 .input-termos input {
   width: 2rem;
@@ -41,4 +47,10 @@
 .input-termos em {
   text-decoration: underline;
   font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+/* **layout da parte de opções de orçamento do formulário */
+
+.orcamento {
+  position: relative;
 }
