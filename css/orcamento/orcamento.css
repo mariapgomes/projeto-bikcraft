@@ -2,10 +2,7 @@
 
 #orcamento .formulario {
   grid-template-columns: 1fr;
-}
-
-#orcamento .formulario-botao {
-  grid-column: span 1;
+  gap: 3.75rem;
 }
 
 .orcamento-dados, .orcamento-entrega {
@@ -14,6 +11,8 @@
   gap: 1.25rem;
 }
 
-.span2 {
-  grid-column: span 2;
+.input-termos {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
 }
