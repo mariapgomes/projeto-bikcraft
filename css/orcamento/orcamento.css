@@ -32,3 +32,13 @@
   align-items: center;
   gap: .5rem;
 }
+
+.input-termos input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.input-termos em {
+  text-decoration: underline;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
