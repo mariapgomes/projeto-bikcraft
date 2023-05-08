@@ -65,3 +65,52 @@
   background-color: var(--cor-c10);
   border-radius: .3125rem;
 }
+
+/* **Layout da label de produtos */
+
+.label {
+  display: grid;
+  grid-template-columns: max-content 1fr 1fr;
+  gap: .5rem;
+  padding: 16px 16px 0 20px;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.label-conteudo ul li {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.label input {
+  margin: 0;
+}
+
+.label p {
+  justify-self: end;
+}
+
+.label-conteudo {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 1rem;
+  padding: 1rem 1rem 1.25rem 2.5rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.label, .label-conteudo {
+  background-color: var(--cor-c0);
+}
+
+.label-conteudo ul li + li{
+  margin-top: .25rem;
+}
+
+.label-conteudo ul li{
+  font-weight: 400;
+}
+
+.label-conteudo div img{
+  height: max-content;
+}
