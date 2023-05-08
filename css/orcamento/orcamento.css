@@ -34,7 +34,8 @@
   display: flex;
   align-items: center;
   gap: .5rem;
-
+  text-transform: uppercase;
+  margin: 0;
 }
 
 /* **Estiliza o input e label */
@@ -51,6 +52,16 @@
 
 /* **layout da parte de opções de orçamento do formulário */
 
-.orcamento {
+.orcamento, .orcamento-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
   position: relative;
+}
+
+.orcamento-opcoes > label {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--cor-c10);
+  border-radius: .3125rem;
 }
