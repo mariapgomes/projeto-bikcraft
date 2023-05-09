@@ -1,4 +1,4 @@
-/* **Layout de dados */
+/* **Layout de dados de envio */
 
 #orcamento .formulario {
   grid-template-columns: 1fr;
@@ -64,17 +64,26 @@
   padding: 1rem 2.5rem;
   background-color: var(--cor-c10);
   border-radius: .3125rem;
+  cursor: pointer;
+}
+
+/* **Layout e estilo dos inputs */
+
+.orcamento input {
+  opacity: 0; /*Tira a opacidade sumindo visualmente com o input da tela, porem continua lá de forma funcional*/
+  position: absolute;
+  pointer-events: none; /*Não deixa que o cursor detecte o input na tela*/        
+  
 }
 
 /* **Layout da label de produtos */
 
 .label {
   display: grid;
-  grid-template-columns: max-content 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: .5rem;
-  padding: 16px 16px 0 20px;
+  padding: 16px 16px 16px 20px;
   align-items: center;
-  border-radius: 5px 5px 0 0;
 }
 
 .label-conteudo ul li {
@@ -83,24 +92,22 @@
   align-items: center;
 }
 
-.label input {
-  margin: 0;
-}
-
 .label p {
   justify-self: end;
+  /* display: none; */
 }
 
 .label-conteudo {
   display: grid;
   grid-template-columns: 1fr max-content;
   gap: 1rem;
-  padding: 1rem 1rem 1.25rem 2.5rem;
-  border-radius: 0 0 5px 5px;
+  padding: 0 1rem 1.25rem 2.5rem;
 }
 
-.label, .label-conteudo {
-  background-color: var(--cor-c0);
+.orcamento-conteudo label {
+  background-color: var(--cor-c10);
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .label-conteudo ul li + li{
@@ -113,4 +120,11 @@
 
 .label-conteudo div img{
   height: max-content;
+}
+
+/* **Efeito flutuante das labels */
+
+input:checked + label, input:checked + label h3, input:focus + label, input:focus + label h3 {
+  background-color: var(--cor-c0);
+  color: var(--cor-c11);
 }
