@@ -94,7 +94,7 @@
 
 .label p {
   justify-self: end;
-  /* display: none; */
+  display: none;
 }
 
 .label-conteudo {
@@ -124,7 +124,16 @@
 
 /* **Efeito flutuante das labels */
 
+#conteudo-nimbus, #conteudo-magic, #conteudo-nebula {
+  display: none;
+  transition: 0.2s;
+}
+
 input:checked + label, input:checked + label h3, input:focus + label, input:focus + label h3 {
   background-color: var(--cor-c0);
   color: var(--cor-c11);
+}
+
+input:checked + label #conteudo-nimbus, input:checked + label #conteudo-magic, input:checked + label #conteudo-nebula,input:checked + label div p {
+  display: block;
 }
