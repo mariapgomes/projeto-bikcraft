@@ -81,7 +81,7 @@
 }
 
 .label-conteudo ul li{
-  font: 400 1rem/1.5 "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .label-conteudo div img{

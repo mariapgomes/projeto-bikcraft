@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.orcamento > h2 {
+  padding-bottom: 20px;
+}
+
 .orcamento h2::before, .orcamento-dados h2::before, .orcamento-entrega h2::before {
   content: '';
   width: .25rem;
