@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
-  position: relative;
 }
 
 .input-termos {
@@ -20,7 +19,16 @@
 
 /* **Insere o icone dos títulos*/
 
- .orcamento h2::before, .orcamento-dados h2::before, .orcamento-entrega h2::before {
+.orcamento h2, .orcamento-dados h2, .orcamento-entrega h2 {
+  text-transform: uppercase;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  margin: 0;
+  position: relative;
+}
+
+.orcamento h2::before, .orcamento-dados h2::before, .orcamento-entrega h2::before {
   content: '';
   width: .25rem;
   height: .5rem;
@@ -28,14 +36,6 @@
   background-color: var(--cor-p1);
   position: absolute;
   left: -12px;
-}
-
-.orcamento h2, .orcamento-dados h2, .orcamento-entrega h2 {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  text-transform: uppercase;
-  margin: 0;
 }
 
 /* **Estiliza o input e label */
@@ -47,24 +47,41 @@
 
 .input-termos em {
   text-decoration: underline;
-  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 /* **layout da parte de opções de orçamento do formulário */
 
-.orcamento, .orcamento-conteudo {
+.orcamento-opcoes {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem 1.25rem;
   position: relative;
+}
+
+.orcamento-opcoes > * {
+  grid-column: 1/-1;
 }
 
 .orcamento-opcoes > label {
   display: inline-block;
-  padding: 1rem 2.5rem;
+  grid-column: initial;
+  padding: .75rem 1rem;
   background-color: var(--cor-c10);
   border-radius: .3125rem;
   cursor: pointer;
+}
+
+/* **Efeito flutuante das labels do menu "BIKCRAFT OU SEGURO"*/
+
+#orcamento-bikcraft, #orcamento-seguro {
+  display: none;
+  transition: 0.2s;
+}
+
+[value="bikcraft"]:checked ~ #orcamento-bikcraft, [value="seguro"]:checked ~ #orcamento-seguro, [value="bikcraft"]:focus ~ #orcamento-bikcraft, [value="seguro"]:focus ~ #orcamento-seguro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
 }
 
 /* **Layout e estilo dos inputs */
@@ -76,7 +93,7 @@
   
 }
 
-/* **Layout da label de produtos */
+/* **Layout da label de "ESCOLHA A SUA (BICKRAFT)"produtos"" */
 
 .label {
   display: grid;
@@ -115,14 +132,14 @@
 }
 
 .label-conteudo ul li{
-  font-weight: 400;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 .label-conteudo div img{
   height: max-content;
 }
 
-/* **Efeito flutuante das labels */
+/* **Efeito flutuante das labels "ESCOLHA A SUA (BICKRAFT)"*/
 
 #conteudo-nimbus, #conteudo-magic, #conteudo-nebula {
   display: none;
