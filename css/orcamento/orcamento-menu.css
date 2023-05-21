@@ -165,3 +165,9 @@ input:checked + label #conteudo-nimbus, input:checked + label #conteudo-magic, i
     align-self: center;
   }
 }
+
+@media (max-width: 400px) {
+  .label-conteudo div {
+    display: none;
+  }
+}
