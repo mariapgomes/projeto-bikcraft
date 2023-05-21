@@ -28,3 +28,9 @@
   text-decoration: underline;
 }
 
+@media (max-width: 650px) {
+  .orcamento-dados, .orcamento-entrega {
+    grid-template-columns: 1fr;
+  }
+}
+
