@@ -159,3 +159,9 @@ img[src$=".jpg"] {
 .span2 {
   grid-column: span 2;
 }
+
+@media (max-width: 650px) {
+  .span2 {
+    grid-column: span 1;
+  }
+}
