@@ -1,0 +1,173 @@
+/* **Layout do menu e estilo das labels*/
+
+.orcamento-opcoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem 1.25rem;
+  position: relative;
+}
+
+.orcamento-opcoes > * {
+  grid-column: 1/-1;
+}
+
+/* Estilo */
+.orcamento-conteudo label {
+  background-color: var(--cor-c10);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.orcamento-opcoes label:hover {
+  background-color: var(--cor-c9);
+}
+
+.orcamento-opcoes input:focus + label{
+  border-color: var(--cor-c12);
+  box-shadow: 0 0 0 2px var(--cor-p1);
+}
+
+input:checked + label, input:checked + label h3, input:checked + label:hover {
+  background-color: var(--cor-c0);
+  color: var(--cor-c11);
+}
+
+/* **Layout e estilo dos inputs */
+/* Esconde o input padrão */
+.orcamento input {
+  opacity: 0; /*Tira a opacidade sumindo visualmente com o input da tela, porem continua lá de forma funcional*/
+  position: absolute;
+  pointer-events: none; /*Não deixa que o cursor detecte o input na tela*/        
+  
+}
+
+/*Cria um icone de input estilizado */
+.orcamento-opcoes > label::before, .label::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--cor-c6);
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-right: .5rem;
+}
+
+/* Aqui o efeito das sombras cria a bolinha de checado dentro dos inputs */
+.orcamento-opcoes input:checked + label::before, input:checked + label > div::before {
+  border-color: var(--cor-c7);
+  box-shadow: inset 0 0 0 3px var(--cor-c0), inset 0 0 0 5px var(--cor-c7);
+}
+
+/* **Layout, estilo e efeito flutuante das labels do menu "BIKCRAFT OU SEGURO"*/
+
+.orcamento-opcoes > label {
+  display: inline-block;
+  grid-column: initial;
+  padding: .75rem 1rem;
+  background-color: var(--cor-c10);
+  border-radius: .3125rem;
+  cursor: pointer;
+}
+
+/* Efeito flutuante */
+#orcamento-bikcraft, #orcamento-seguro {
+  display: none;
+  transition: 0.2s;
+}
+
+input[value="bikcraft"]:checked ~ #orcamento-bikcraft, input[value="seguro"]:checked ~ #orcamento-seguro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+/* **Layout da label de "ESCOLHA A SUA (BICKRAFT)" */
+
+.label {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 16px 16px 16px 20px;
+  align-items: center;
+}
+
+.label p {
+  justify-self: end;
+  display: none;
+}
+
+/* **Layout do conteúdo da label de "ESCOLHA A SUA (BICKRAFT)" */
+
+.label-conteudo {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 1rem;
+  padding: 0 1rem 1.25rem 2.5rem;
+}
+
+.label-conteudo ul li {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  font-weight: 400;
+}
+
+.label-conteudo ul li + li{
+  margin-top: .25rem;
+}
+
+.label-conteudo div img{
+  height: max-content;
+}
+
+/* Efeito flutuante */
+#conteudo-nimbus, #conteudo-magic, #conteudo-nebula {
+  display: none;
+  transition: 0.2s;
+}
+
+input:checked + label #conteudo-nimbus, input:checked + label #conteudo-magic, input:checked + label #conteudo-nebula, input:checked + label div p {
+  display: block;
+}
+
+@media (max-width: 1120px) {
+  #orcamento .contato-conteudo {
+    grid-template-columns: 1fr;
+    margin-bottom: 3.75rem;
+  }
+
+  #orcamento .contato-lista {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .orcamento-opcoes {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .orcamento-opcoes > * {
+    grid-column: span 1;
+  }
+
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+
+  .label-conteudo {
+    grid-template-columns: max-content 1fr;
+  }
+
+  .label-conteudo div {
+    justify-self: end;
+    align-self: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .label-conteudo div {
+    display: none;
+  }
+}

@@ -11,6 +11,14 @@
 @import url(./css-global/seguros.css);
 @import url(./css-global/footer.css);
 
+/* Formulários */
+@import url(./css-global/formularios/loja-online.css);
+@import url(./css-global/formularios/formulario.css);
+
+/* Especificações do produto */
+@import url(./css-global/produto-especificacoes/especificacoes.css);
+@import url(./css-global/produto-especificacoes/chamada-seguros.css);
+
 /* Home do site */
 @import url(./home/introducao.css);
 @import url(./home/lista-produtos.css);
@@ -25,14 +33,13 @@
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas-frequentes.css);
 
-/* Especificações do produto */
-@import url(./css-global/produto-especificacoes/especificacoes.css);
-@import url(./css-global/produto-especificacoes/chamada-seguros.css);
-
 /* Contato */
-@import url(./contato/loja-online.css);
-@import url(./contato/formulario.css);
 @import url(./contato/lojas.css);
+
+/* Orçamento */
+@import url(./orcamento/orcamento-gerais.css);
+@import url(./orcamento/orcamento-menu.css);
+@import url(./orcamento/orcamento-formulario.css);
 
 /* Termos e condições do site */
 @import url(../css/termos/termos.css);

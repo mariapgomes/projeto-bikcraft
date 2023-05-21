@@ -1,0 +1,28 @@
+#orcamento {
+  background-color: var(--cor-c1);
+}
+
+/* **Insere o icone dos titulos*/
+
+.orcamento h2, .orcamento-dados h2, .orcamento-entrega h2 {
+  text-transform: uppercase;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  margin: 0;
+  position: relative;
+}
+
+.orcamento > h2 {
+  padding-bottom: 20px;
+}
+
+.orcamento h2::before, .orcamento-dados h2::before, .orcamento-entrega h2::before {
+  content: '';
+  width: .25rem;
+  height: .5rem;
+  display: inline-block;
+  background-color: var(--cor-p1);
+  position: absolute;
+  left: -12px;
+}

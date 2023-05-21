@@ -1,0 +1,36 @@
+/* **Layout de dados de envio */
+
+#orcamento .formulario {
+  grid-template-columns: 1fr;
+  gap: 3.75rem;
+}
+
+.orcamento-dados, .orcamento-entrega {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.input-termos {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+/* **Estiliza o input e label */
+
+.input-termos input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.input-termos em {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  .orcamento-dados, .orcamento-entrega {
+    grid-template-columns: 1fr;
+  }
+}
+
