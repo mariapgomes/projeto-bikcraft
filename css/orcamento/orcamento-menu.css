@@ -87,7 +87,7 @@ input[value="bikcraft"]:checked ~ #orcamento-bikcraft, input[value="seguro"]:che
 
 .label {
   display: grid;
-  grid-template-columns: max-content 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
   padding: 16px 16px 16px 20px;
   align-items: center;
 }
@@ -129,4 +129,15 @@ input[value="bikcraft"]:checked ~ #orcamento-bikcraft, input[value="seguro"]:che
 
 input:checked + label #conteudo-nimbus, input:checked + label #conteudo-magic, input:checked + label #conteudo-nebula, input:checked + label div p {
   display: block;
+}
+
+@media (max-width: 1120px) {
+  #orcamento .contato-conteudo {
+    grid-template-columns: 1fr;
+    margin-bottom: 3.75rem;
+  }
+
+  #orcamento .contato-lista {
+    border-radius: 5px 5px 0 0;
+  }
 }
