@@ -1,3 +1,7 @@
+#orcamento {
+  background-color: var(--cor-c1);
+}
+
 /* **Insere o icone dos titulos*/
 
 .orcamento h2, .orcamento-dados h2, .orcamento-entrega h2 {
