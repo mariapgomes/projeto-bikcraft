@@ -56,7 +56,7 @@
     grid-column: span 1;
   }
 
-  .formulario input, .formulario textarea {
+  #contatos .formulario input, .formulario textarea {
     min-width: 190px;
   }
 
