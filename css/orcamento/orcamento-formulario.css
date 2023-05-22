@@ -24,8 +24,13 @@
   height: 2rem;
 }
 
-.input-termos em {
+.input-termos a {
   text-decoration: underline;
+  display: inline;
+}
+
+.input-termos a:hover {
+  color: var(--cor-c7);
 }
 
 @media (max-width: 650px) {
