@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
-  background-color: var(--cor-c0);
+  background: var(--cor-c0)url(../../../img/decoradores/bottom-right.svg) no-repeat bottom 20px right 20px;
   padding: 3.75rem;
   border-radius: 0 5px 5px 0;
 }
