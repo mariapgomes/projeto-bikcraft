@@ -50,6 +50,12 @@
   font-weight: 600;
 }
 
+@media (min-width: 1200px) {
+  .depoimento-conteudo img{
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .depoimento-conteudo {
     grid-template-columns: 1fr;
