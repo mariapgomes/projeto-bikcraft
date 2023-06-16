@@ -41,4 +41,4 @@ Esses aprendizados elevaram meu conhecimento, me tornando capaz de criar melhore
 
 ## Acesse o [protótipo](https://www.figma.com/proto/Dq4gGeH89yaE97mMBFRjM9/Projeto-final---bickecraft?node-id=2%3A49&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A49) e navegue pelas páginas normalmente.
 
-## Visualize e integraja com o [projeto](https://www.figma.com/proto/Dq4gGeH89yaE97mMBFRjM9/Projeto-final---bickecraft?node-id=2%3A49&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A49) na íntegra em sua versão mais recente.
+## Visualize e interaja com o [projeto](https://www.figma.com/proto/Dq4gGeH89yaE97mMBFRjM9/Projeto-final---bickecraft?node-id=2%3A49&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A49) na íntegra em sua versão mais recente.
