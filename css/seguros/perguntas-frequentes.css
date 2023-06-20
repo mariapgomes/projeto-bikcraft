@@ -17,11 +17,10 @@
 .perguntas-conteudo div {
   padding: 1.25rem;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 /* Cria e posiciona a marcação de lista */
-.perguntas-conteudo div dt::before {
+.perguntas-conteudo div button::before {
   content: '';
   display: inline-block;
   width: 12px;
@@ -30,22 +29,32 @@
 }
 
 /* Posiciona o before e o after em relação a pergunta */
-.perguntas-conteudo div dt {
+.perguntas-conteudo div button {
+  border: none;
+  background: none;
+  width: 100%;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: .5rem;
+  text-align: left;
+  cursor: pointer;
 }
 /* fim */
 
 /* Insere a seta de abertura/fechamento */
-.perguntas-conteudo div dt::after {
+.perguntas-conteudo div button::after {
   content: '';
   display: inline-block;
   width: 14px;
   height: 6px;
   background-image: url(../../img/icones/seta-abrir.svg);
   transition: .3s;
+}
+
+/* Efeito de movimento da seta */
+.perguntas-conteudo button[aria-expanded="true"]::after {
+  transform: rotate(-180deg);
 }
 /* fim */
 
@@ -55,13 +64,7 @@
   display: none;
 }
 
-/* Efeito de movimento da seta */
-.perguntas-conteudo div:active dt::after {
-  transform: rotate(-180deg);
-}
-
-/* Efeito da resposta ao clickar */
-.perguntas-conteudo div:active dd{
+.perguntas-conteudo div .ativa{
   display: block;
 }
 
