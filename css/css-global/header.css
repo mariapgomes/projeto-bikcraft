@@ -20,14 +20,14 @@
   gap: 2.5rem;
 }
 
-.header-bg li a{
+.header-menu li a {
   display: block;
   padding: 1rem 0;
   color: var(--cor-c0);
   position: relative;
 }
 
-.header-bg li a::after{
+.header-menu li a::after {
   content: '';
   display: block;
   width: 0;
@@ -35,10 +35,10 @@
   background-color: var(--cor-c0);
   position: absolute;
   margin-top: .25rem;
+  transition: 0.3s;
 }
 
-.header-bg li a:hover::after{
-  transition: 0.3s;
+.header-menu li a:hover::after, .header-menu li a.ativo::after {
   width: 100%;
 }
 
