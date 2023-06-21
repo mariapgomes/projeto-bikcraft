@@ -1,11 +1,11 @@
-# Bikcraft 🚧
+# Bikcraft
 
 É um projeto final do curso de HTML e CSS proposto pela instutuição de ensino Origamid. Ele é um site de venda de bicicletas completo, feito na versão desktop e composto por 7 páginas. Inclui conceitos e técnicas de UX e UI, uso da ferramenta Figma para sua prototipação e HTML e CSS para sua construção e estilização.
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](<Captura de tela de 2023-06-21 16-23-56.png>)
 
 
 ## Stack utilizada
@@ -41,4 +41,4 @@ Esses aprendizados elevaram meu conhecimento, me tornando capaz de criar melhore
 
 ## Acesse o [protótipo](https://www.figma.com/proto/Dq4gGeH89yaE97mMBFRjM9/Projeto-final---bickecraft?node-id=2%3A49&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A49) e navegue pelas páginas normalmente.
 
-## Visualize e interaja com o [projeto](https://www.figma.com/proto/Dq4gGeH89yaE97mMBFRjM9/Projeto-final---bickecraft?node-id=2%3A49&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A49) na íntegra em sua versão mais recente.
+## Visualize e interaja com o [projeto](https://bikcraft-maria-gomes.netlify.app/index.html) na íntegra em sua versão mais recente.
