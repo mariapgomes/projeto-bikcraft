@@ -61,10 +61,13 @@
 .perguntas-conteudo div dd{
   max-width: 80ch;
   margin: 1.25rem;
+}
+
+.js .perguntas-conteudo div dd{
   display: none;
 }
 
-.perguntas-conteudo div .ativa{
+.js .perguntas-conteudo div .ativa{
   display: block;
 }
 
