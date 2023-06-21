@@ -44,3 +44,17 @@ function cliquePerguntas (pergunta) {
 }
 
 perguntas.forEach(cliquePerguntas);
+
+//*TRANSIÇÃO DE FOTOS DA GALERIA
+
+const imagens = document.querySelectorAll('#galeria li');
+const galeria = document.querySelector('#galeria');
+
+function trocarImagem (event) {
+  const imgClicado = event.currentTarget;
+  galeria.prepend(imgClicado);
+}
+
+imagens.forEach((imagem) => {
+  imagem.addEventListener('click', trocarImagem) 
+});
