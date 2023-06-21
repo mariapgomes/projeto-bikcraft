@@ -32,6 +32,7 @@
 
 .lista-parceiros li img{
   margin: auto;
+  height: auto;
   max-width: 100%;
 }
 

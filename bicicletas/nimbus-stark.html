@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Bicileta modelo Nimbus Stark da marca Bikcraft">
-    <title>Nimbus Stark | Bikcraft</title>
-    <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bicileta modelo Nimbus Stark da marca Bikcraft">
+  <title>Nimbus Stark | Bikcraft</title>
+  <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
+  <link rel="preload" href="../css/style.min.css" as="style">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body id="especificacoes">
 
   <header class="header-bg">
     <div class="header-container container">
       <nav aria-label="primária">
-        <a href="../index.html"><img src="../img/bikcraft.svg" alt="Bikcraft"></a>
+        <a href="../index.html"><img src="../img/bikcraft.svg" alt="Bikcraft" width="136" height="32"></a>
         <ul class="header-menu font-1-m">
           <li><a href="../bicicletas.html">Bicicletas</a></li>
           <li><a href="../seguros.html">Seguros</a></li>
@@ -37,7 +41,7 @@
     <article aria-label="Especificações" class="especificacoes-bg">
 
       <div class="especificacoes-conteudo container">
-        <ul class="especificacoes-galeria">
+        <ul class="especificacoes-galeria" id="galeria">
           <li>
             <div>
               <img src="../img/fotos/biciletas-produto/galeria/ninbus-galeria.jpg" alt="Detalhes da Nimbus" width="560" height="440">
@@ -59,7 +63,7 @@
           <div class="especificacoes-descricao">
             <p class="font-2-l cor-c5">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
             <div>
-              <a href="../seguros/orcamento.html" class="botao">COMPRAR AGORA</a>
+              <a href="../seguros/orcamento.html?tipo=bikcraft&produto=nimbus" class="botao">COMPRAR AGORA</a>
             </div>
             <ul class="especificacoes-tags cor-c6 font-1-xs">
               <li>entrega em até 5 dias</li>
@@ -71,22 +75,22 @@
             <h2 class="font-1-xs-b cor-c0">INFORMAÇÕES</h2>
             <ul class="especificacoes-vantagens">
               <li>
-                <img src="../img/icones/eletrica 3.svg" alt="" width="24px" height="24px">
+                <img src="../img/icones/eletrica 3.svg" alt="icone" width="24px" height="24px">
                 <h3 class="font-1-m cor-c0">Motor Elétrico</h3>
                 <p class="font-2-xs cor-c5">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
               </li>
               <li>
-                <img src="../img/icones/velocidade 2.svg" alt="" width="24px" height="24px">
+                <img src="../img/icones/velocidade 2.svg" alt="icone" width="24px" height="24px">
                 <h3 class="font-1-m cor-c0">50 km/h</h3>
                 <p class="font-2-xs cor-c5">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
               </li>
               <li>
-                <img src="../img/icones/rastreador 2.svg" alt="" width="24px" height="24px">
+                <img src="../img/icones/rastreador 2.svg" alt="icone" width="24px" height="24px">
                 <h3 class="font-1-m cor-c0">Rastreador</h3>
                 <p class="font-2-xs cor-c5">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
               </li>
               <li>
-                <img src="../img/icones/carbono 2.svg" alt="" width="24px" height="24px">
+                <img src="../img/icones/carbono 2.svg" alt="icone" width="24px" height="24px">
                 <h3 class="font-1-m cor-c0">Fibra de Carbono</h3>
                 <p class="font-2-xs cor-c5">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
               </li>
@@ -169,7 +173,7 @@
 
   <footer class="footer-bg">
     <div class="footer-conteudo container">
-      <a href="../index.html"><img src="../img/bikcraft.svg" alt="Bikcraft"></a>
+      <a href="../index.html"><img src="../img/bikcraft.svg" alt="Bikcraft" width="136" height="32"></a>
       <div class="footer-contatos font-2-s cor-c5">
         <h3 class="font-2-l cor-c0">CONTATO</h3>
         <p>
@@ -178,9 +182,9 @@
         </p>
         <p>Rua Ali Perto, 42 - Botafogo<br>Rio de Janeiro - RJ</p>
         <ul class="footer-redes">
-          <li><a href="./"><img src="../img/redes/instagram.svg" alt="Instagram"></a></li>
-          <li><a href="./"><img src="../img/redes/facebook.svg" alt="Facebook"></a></li>
-          <li><a href="./"><img src="../img/redes/youtube.svg" alt="Youtube"></a></li>
+          <li><a href="./"><img src="../img/redes/instagram.svg" alt="Instagram" width="32" height="32"></a></li>
+          <li><a href="./"><img src="../img/redes/facebook.svg" alt="Facebook" width="32" height="32"></a></li>
+          <li><a href="./"><img src="../img/redes/youtube.svg" alt="Youtube" width="32" height="32"></a></li>
         </ul>
       </div>
       <nav class="footer-informacoes">
@@ -196,5 +200,6 @@
     </div>
   </footer>
 
+    <script src="../js/script.js"></script>
 </body>
 </html>

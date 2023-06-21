@@ -6,7 +6,7 @@
 /* **Controla o layout */
 
 .contato-lista {
-  background-color: var(--cor-c12);
+  background: var(--cor-c12) url(../../../img/decoradores/bottom-left.svg) no-repeat bottom 20px left 20px;
   padding: 3.75rem;
   border-radius: 5px 0 0 5px;
 }
@@ -96,6 +96,7 @@
 
   .contato-lista {
     padding: 2rem;
+    background: var(--cor-c12);
   }
 
   .contato-lista h2 {

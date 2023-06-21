@@ -18,6 +18,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  background: url(../../img/decoradores/top-right.svg) no-repeat top 0 right 20px;
 }
 /* Faz a imagem se expandir pelo tamanho total da div */
 .bicicletas-imagem img {

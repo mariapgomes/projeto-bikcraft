@@ -14,6 +14,7 @@
 .depoimento-texto {
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url(../../img/decoradores/bottom-right-p.svg) no-repeat bottom 40px right 40px;
 }
 
 .depoimento-texto p{
@@ -47,6 +48,12 @@
 
 .depoimento-texto cite{
   font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .depoimento-conteudo img{
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

@@ -2,14 +2,18 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Contatos disponíveis da marca Bikcraft">
-    <title>Contato | Bikcraft</title>
-    <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contatos disponíveis da marca Bikcraft">
+  <title>Contato | Bikcraft</title>
+  <link rel="shortcut icon" href="../Favicon.svg" type="image/x-icon">
+  <link rel="preload" href="../css/style.min.css" as="style">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body id="orcamento">
@@ -49,7 +53,7 @@
               <h2 class="font-1-xs cor-c5">Bikcraft ou Seguro?</h2>
               <div class="orcamento-opcoes">
                 
-                <input type="radio" name="tipo" value="bikcraft" id="bikcraft" radio="radio" checked>
+                <input type="radio" name="tipo" value="bikcraft" id="bikcraft" radio="radio">
                 <label for="bikcraft" class="font-1-s cor-c4">
                   Bickraft
                 </label>
@@ -63,7 +67,7 @@
                 <div class="orcamento-conteudo" id="orcamento-bikcraft">
                   <h2 class="font-1-xs cor-c5">Escolha a sua (Bickraft)</h2>
 
-                  <input type="radio" name="produto" value="nimbus" id="nimbus" radio="radio" checked>
+                  <input type="radio" name="produto" value="nimbus" id="nimbus" radio="radio">
                   <label for="nimbus" class="font-1-s cor-c4">
                     <div class="label">
                       <h3 class="font-1-s cor-c4">Nimbus Stark</h3>
@@ -133,7 +137,7 @@
                 <div class="orcamento-conteudo" id="orcamento-seguro">
                   <h2 class="font-1-xs cor-c5">Escolha o plano</h2>
 
-                  <input type="radio" name="seguro" value="prata" id="prata" radio="radio">
+                  <input type="radio" name="produto" value="prata" id="prata" radio="radio">
                   <label for="prata" class="font-1-s cor-c4">
                     <div class="label">
                       <h3 class="font-1-s cor-c4">Prata</h3>
@@ -141,7 +145,7 @@
                     </div>
                   </label>
 
-                  <input type="radio" name="seguro" value="Ouro" id="Ouro" radio="radio">
+                  <input type="radio" name="produto" value="Ouro" id="ouro" radio="radio">
                   <label for="Ouro" class="font-1-s cor-c4">
                     <div class="label">
                       <h3 class="font-1-s cor-c4">Ouro</h3>
@@ -218,7 +222,7 @@
 
                 <div class="input-termos inputs span2">
                   <input type="checkbox" id="checkbox" name="checkbox" required class="font-2-s cor-c7">
-                  <label for="checkbox" class="font-1-s cor-c11">Li e aceito os <em class="font-1-s">termos e condições</em>.</label>
+                  <label for="checkbox" class="font-1-s cor-c11">Li e aceito os <a href="../termos.html" class="font-1-s cor-c11">termos e condições</a>.</label>
                 </div>
                 
                 <button class="formulario-botao botao">enviar mensagem</button>
@@ -271,6 +275,7 @@
     </div>
   </footer>
 
+    <script src="../js/script.js"></script>
 </body>
 
 </html>    
