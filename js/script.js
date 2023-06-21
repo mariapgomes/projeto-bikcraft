@@ -58,3 +58,9 @@ function trocarImagem (event) {
 imagens.forEach((imagem) => {
   imagem.addEventListener('click', trocarImagem) 
 });
+
+//*ANIMAÇÃO
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
